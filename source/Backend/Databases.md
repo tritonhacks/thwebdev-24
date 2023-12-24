@@ -2,7 +2,7 @@
 layout: default
 title: Databases
 has_children: false
-parent: 1. Backend
+parent: Backend
 permalink: /Backend/Databases
 nav_order: 2
 ---
