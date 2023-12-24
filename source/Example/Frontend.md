@@ -2,7 +2,7 @@
 layout: default
 title: Creating the Frontend
 has_children: false
-parent: Example
+parent: Bringing it all together
 permalink: /Example/Frontend
 nav_order: 1
 ---

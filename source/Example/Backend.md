@@ -2,7 +2,7 @@
 layout: default
 title: Creating the Backend
 has_children: false
-parent: Example
+parent: Bringing it all together
 permalink: /Example/Backend
 nav_order: 2
 ---

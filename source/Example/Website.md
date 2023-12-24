@@ -2,7 +2,7 @@
 layout: default
 title: Crafting our Website
 has_children: false
-parent: Example
+parent: Bringing it all together
 permalink: /Example/Website
 nav_order: 3
 ---
