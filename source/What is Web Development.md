@@ -2,7 +2,7 @@
 layout: default
 title: What is Web Development?
 permalink: /What is Web Development
-nav_order: 1
+nav_order: 2
 ---
 
 # What is Web Development?
