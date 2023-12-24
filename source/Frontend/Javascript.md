@@ -1,7 +1,16 @@
+---
+layout: default
+title: Javascript
+has_children: false
+parent: Frontend
+permalink: /Frontend/Javascript
+nav_order: 3
+---
+
 <body>
 <header>
 <a href="../..">Table of Contents</a>
-<h1>Introduction to HyperText Markup Language</h1>
+<h1>Introduction to Javascript (JS)</h1>
 <h3>Learning Objectives</h3>
 
 <h3>

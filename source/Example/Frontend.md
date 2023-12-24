@@ -1,3 +1,13 @@
+---
+layout: default
+title: Creating the Frontend
+has_children: false
+parent: Example
+permalink: /Example/Frontend
+nav_order: 1
+---
+
+
 <body>
 <header>
 <a href="../..">Table of Contents</a>

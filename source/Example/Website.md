@@ -1,3 +1,13 @@
+---
+layout: default
+title: Crafting our Website
+has_children: false
+parent: Example
+permalink: /Example/Website
+nav_order: 3
+---
+
+
 <body>
 <header>
 <a href="../..">Table of Contents</a>

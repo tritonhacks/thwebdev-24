@@ -1,7 +1,16 @@
+---
+layout: default
+title: Cascading Style Sheets
+has_children: false
+parent: Frontend
+permalink: /Frontend/CSS
+nav_order: 2
+---
+
 <body>
 <header>
 <a href="../..">Table of Contents</a>
-<h1>Making the Backend</h1>
+<h1>Introduction to Cascading Style Sheets (CSS)</h1>
 <h3>Learning Objectives</h3>
 
 <h3>

@@ -1,7 +1,17 @@
+---
+layout: default
+title: Creating the Backend
+has_children: false
+parent: Example
+permalink: /Example/Backend
+nav_order: 2
+---
+
+
 <body>
 <header>
 <a href="../..">Table of Contents</a>
-<h1>Introduction to Javascript (JS)</h1>
+<h1>Making the Backend</h1>
 <h3>Learning Objectives</h3>
 
 <h3>
