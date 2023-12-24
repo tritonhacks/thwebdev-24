@@ -17,4 +17,4 @@ nav_order: 2
 ---
 
 {: .note }
-> This guide has been prepared by [name](github or linkedin)
+> By [name](github or linkedin)
