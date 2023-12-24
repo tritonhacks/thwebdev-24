@@ -2,8 +2,8 @@
 layout: default
 title: Databases
 has_children: false
-parent: 1. The Backend
-permalink: /The Backend/Databases
+parent: 1. Backend
+permalink: /Backend/Databases
 nav_order: 2
 ---
 
