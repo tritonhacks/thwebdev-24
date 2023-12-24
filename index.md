@@ -1,6 +1,7 @@
 ---
 title: Home
 layout: home
+nav-order: 0
 ---
 
 # TritonHacks Web Development <br> Starter Kit
