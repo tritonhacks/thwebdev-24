@@ -7,11 +7,8 @@ permalink: /Backend/Databases
 nav_order: 2
 ---
 
-# Importing Your Serialized Models
+# What are Databases?
 {: .no_toc }
-
-In this guide, we will show you the steps necessary for import your **serialized** model into the plugin.
-{: .fs-6 .fw-300 }
 
 ## Table of contents
 {: .no_toc .text-delta }

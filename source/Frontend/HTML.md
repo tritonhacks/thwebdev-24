@@ -7,6 +7,16 @@ permalink: /Frontend/HTML
 nav_order: 1
 ---
 
+# What is Hypertext Markup Language (HTML)?
+{: .no_toc }
+
+## Table of contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
+---
 
 <body>
 <header>
