@@ -14,33 +14,6 @@ nav_order: 1
 
 Welcome to Triton Hacks - your gateway to coding and tech exploration! This is the starter kit for those who want to learn about web development and how we can create websites!
 
-<table>
-  <thead>
-    <tr>
-      <th>Header 1</th>
-      <th>Header 2</th>
-      <th>Header 3</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Row 1, Col 1</td>
-      <td>Row 1, Col 2</td>
-      <td>Row 1, Col 3</td>
-    </tr>
-    <tr>
-      <td>Row 2, Col 1</td>
-      <td>Row 2, Col 2</td>
-      <td>Row 2, Col 3</td>
-    </tr>
-    <tr>
-      <td>Row 3, Col 1</td>
-      <td>Row 3, Col 2</td>
-      <td>Row 3, Col 3</td>
-    </tr>
-  </tbody>
-</table>
-
 
 
 This is a *bare-minimum* template to create a Jekyll site that uses the [Just the Docs] theme. You can easily set the created site to be published on [GitHub Pages] – the [README] file explains how to do that, along with other details.
