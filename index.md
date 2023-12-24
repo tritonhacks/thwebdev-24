@@ -9,6 +9,9 @@ nav_order: 1
 
 ---
 
+{: .note }
+> This guide has been prepared by [name](github or linkedin)
+
 Welcome to Triton Hacks - your gateway to coding and tech exploration! This is the starter kit for those who want to learn about web development and how we can create websites!
 
 This is a *bare-minimum* template to create a Jekyll site that uses the [Just the Docs] theme. You can easily set the created site to be published on [GitHub Pages] – the [README] file explains how to do that, along with other details.

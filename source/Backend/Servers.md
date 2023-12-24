@@ -18,6 +18,8 @@ nav_order: 1
 
 ---
 
+{: .note }
+> This guide has been prepared by [name](github or linkedin)
 <body>
 <header>
 <a href="../..">Table of Contents</a>

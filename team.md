@@ -8,3 +8,6 @@ nav_order: 5
 {: .fs-9 }
 
 ---
+
+{: .note }
+> This guide has been prepared by [name](github or linkedin)

@@ -16,3 +16,6 @@ permalink: /Frontend
 {:toc}
 
 ---
+
+{: .note }
+> This guide has been prepared by [name](github or linkedin)
