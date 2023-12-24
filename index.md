@@ -3,8 +3,7 @@ title: Home
 layout: home
 ---
 
-# TritonHacks Web Development 
-# Starter Kit
+# TritonHacks Web Development <br> Starter Kit
 {: .fs-9 }
 
 ---
