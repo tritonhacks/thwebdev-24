@@ -1,13 +1,13 @@
 ---
 layout: default
-title: Crafting our Website
+title: Crafting the Website
 has_children: false
 parent: An Example
 permalink: /Example/Website
 nav_order: 3
 ---
 
-# Creating our Website
+# Creating the Website
 {: .no_toc }
 
 ## Table of contents

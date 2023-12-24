@@ -7,7 +7,7 @@ permalink: /Frontend/CSS
 nav_order: 2
 ---
 
-# What is Cascading Style Sheets (CSS)?
+# What are Cascading Style Sheets (CSS)?
 {: .no_toc }
 
 ## Table of contents
