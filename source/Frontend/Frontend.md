@@ -9,9 +9,10 @@ permalink: /Frontend
 # What is the Frontend?
 {: .no_toc }
 
----
-
 {: .note }
 > This guide has been prepared by [name](github or linkedin)
+
+## Table of Contents
+{:toc}
 
 ## Title 1
