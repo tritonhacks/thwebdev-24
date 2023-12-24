@@ -8,10 +8,6 @@ nav_order: 2
 ---
 
 # What are Cascading Style Sheets (CSS)?
-{: .no_toc }
-
-## Table of contents
-{: .no_toc .text-delta }
 
 1. TOC
 {:toc}
@@ -20,3 +16,5 @@ nav_order: 2
 
 {: .note }
 > This guide has been prepared by [name](github or linkedin)
+
+## Title 1
