@@ -1,8 +1,8 @@
 ---
 layout: default
-title: User Interaction and Experience
+title: Design
 nav_order: 3
 has_children: true
 permalink: /Design
 ---
-# User Interaction and Experience
+# Design
