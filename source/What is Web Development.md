@@ -32,6 +32,5 @@ Design
 Frontend
 Backend
 
-[Previous: Home](Home){: .float-left .v-align-text-top}
 [Next: Design](Design){: .float-right .v-align-text-top}
 

@@ -2,7 +2,6 @@
 title: Home
 layout: home
 nav_order: 1
-permalink: /Home
 ---
 # TritonHacks Web Development <br> Starter Kit
 {: .note }
