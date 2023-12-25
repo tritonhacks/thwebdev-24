@@ -10,4 +10,4 @@ permalink: /Design
 > By [name](github or linkedin)
 
 [Previous: What is Web Development?](What is Web Development){: .float-left .v-align-text-top}
-[Next: User Interaction](User Interaction){: .float-right .v-align-text-top}
+[Next: User Interaction](Design/User Interaction){: .float-right .v-align-text-top}
