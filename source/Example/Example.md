@@ -7,4 +7,5 @@ permalink: /Example
 ---
 
 # Designing our Website
----
+{: .note }
+> By [name](github or linkedin)

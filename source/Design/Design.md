@@ -6,3 +6,5 @@ has_children: true
 permalink: /Design
 ---
 # Design
+{: .note }
+> By [name](github or linkedin)

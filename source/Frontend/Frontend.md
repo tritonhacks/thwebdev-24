@@ -7,4 +7,5 @@ permalink: /Frontend
 ---
 
 # What is the Frontend?
----
+{: .note }
+> By [name](github or linkedin)
