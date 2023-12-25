@@ -27,6 +27,7 @@ Now, web development is the fascinating process of building these websites. It's
 
 ![Website and House with Tech](source/assets/images/website_house_tech_analogy.png)
 
+
 Design
 Frontend
 Backend

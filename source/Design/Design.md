@@ -8,3 +8,6 @@ permalink: /Design
 # Design
 {: .note }
 > By [name](github or linkedin)
+
+[Previous: What is Web Development?](What is Web Development)){: .float-left .v-align-text-top}
+[Next: User Interaction](User Interaction){: .float-right .v-align-text-top}
