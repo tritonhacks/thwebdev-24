@@ -31,6 +31,8 @@ Design
 Frontend
 Backend
 
-TEST
-{: .text-right}
-TEST
+[Home][index.md]
+{: .text-left .lh-0}
+
+[Design][source/Design/Design.md]
+{: .text-right .lh-0}
