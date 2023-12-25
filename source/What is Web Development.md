@@ -21,12 +21,14 @@ The Internet is like a huge worldwide network that connects millions of devices 
 
 Websites are like individual rooms or spaces in this big library. Each website has its own unique address, just like a house has an address in a city. When you visit a website, you're exploring what's inside that particular room of the internet library. Websites can be about anything – from sharing news and stories, selling products, teaching things, or simply entertaining people.
 
-![Website and Internet Analogy](assets/images/internet_website_analogy.jpg)
+![Website and Internet Analogy](source/assets/images/internet_website_analogy.jpg)
 
 Now, web development is the fascinating process of building these websites. It's like being an architect, designer, and storyteller all at once. People who work on web development use special computer languages and tools to create and design these online spaces.
 
-![Website and House with Tech](assets/images/website_house_tech_analogy.png)
+![Website and House with Tech](source/assets/images/website_house_tech_analogy.png)
 
 Design
 Frontend
 Backend
+
+{: .text-right} TEST
