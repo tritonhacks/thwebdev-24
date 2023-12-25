@@ -5,8 +5,10 @@ nav_order: 4
 has_children: true
 permalink: /Backend
 ---
-
 # What is the Backend?
+{: .note }
+> By [Kevin](https://www.linkedin.com/in/kevin-shin-373183188/)
+
 You're familiar with the Frontend, which represents what you see in classrooms – desks, boards, and teachers. Now, let's explore the Backend, which is like the main office managing all the school's information behind the scenes.
 
 1. ### Servers - The School's Main Office<br>

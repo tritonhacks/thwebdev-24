@@ -3,10 +3,7 @@ title: Home
 layout: home
 nav_order: 1
 ---
-
 # TritonHacks Web Development <br> Starter Kit
-{: .fs-9 }
-
 ---
 
 {: .note }
