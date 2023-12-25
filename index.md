@@ -2,9 +2,6 @@
 title: Home
 layout: home
 nav_order: 1
-next_submodule:
-  title: What is Web Development?
-  url: /source/What Is Web Development
 ---
 # TritonHacks Web Development <br> Starter Kit
 {: .note }
