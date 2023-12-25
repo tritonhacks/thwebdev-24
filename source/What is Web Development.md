@@ -31,8 +31,6 @@ Design
 Frontend
 Backend
 
-[Home](/index.md)
-{: .text-left .v-align-text-top}
+[Home](/){: .v-align-text-top}
+[Design](/Design){: .v-align-text-top}
 
-[Design](/source/Design/Design.md)
-{: .text-right .v-align-text-top}
