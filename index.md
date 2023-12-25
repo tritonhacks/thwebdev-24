@@ -14,3 +14,5 @@ Get set for an exciting journey through some awesome modules that'll show you ev
 
 ![TritonHacks Image](source/assets/images/tritonhacks.png)
 
+[Next: What is Web Development?](What is Web Development){: .float-right .v-align-text-top}
+
