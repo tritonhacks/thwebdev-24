@@ -32,7 +32,7 @@ Frontend
 Backend
 
 [Previous](/){: .float-left .v-align-text-top}
-[Next](Design){: .float-right .v-align-text-top}<br>
+[Next](Design){: .float-right .v-align-text-top}
 
 [Home](../){: .float-left .v-align-text-top}
 [Design](Design){: .float-right .v-align-text-top}
