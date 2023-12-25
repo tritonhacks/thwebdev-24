@@ -4,8 +4,6 @@ layout: home
 nav_order: 1
 ---
 # TritonHacks Web Development <br> Starter Kit
----
-
 {: .note }
 > By [Kevin](https://www.linkedin.com/in/kevin-shin-373183188/)
 
