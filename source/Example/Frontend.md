@@ -4,7 +4,7 @@ title: Creating the Frontend
 has_children: false
 parent: An Example
 permalink: /Example/Frontend
-nav_order: 3
+nav_order: 1
 ---
 
 # Creating our Frontend
