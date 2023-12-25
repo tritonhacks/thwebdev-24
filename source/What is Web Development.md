@@ -31,6 +31,6 @@ Design
 Frontend
 Backend
 
-[Home](/){: .float-left .v-align-text-top}
-[Design](/Design){: .float-right .v-align-text-top}
+[Previous: Home](../index.md){: .float-left .v-align-text-top}
+[Next: Design](Design/Design.md){: .float-right .v-align-text-top}
 
