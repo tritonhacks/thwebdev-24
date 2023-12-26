@@ -22,4 +22,4 @@ nav_order: 3
 > By [name](github or linkedin)
 
 [Previous: Backend](Backend){: .float-left .v-align-text-top}
-[Next: The Team]({{ "/team" | relative_url }}){: .float-left .v-align-text-top}
+[Next: The Team]({{ "/team" | relative_url }}){: .float-right .v-align-text-top}
