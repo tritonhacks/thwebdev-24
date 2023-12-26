@@ -18,7 +18,7 @@ permalink: /Backend
 {: .note }
 > By [Kevin](https://www.linkedin.com/in/kevin-shin-373183188/)
 
-You're familiar with the Frontend, which represents what you see in classrooms – desks, boards, and teachers. Now, let's explore the Backend, which is like the main office managing all the school's information behind the scenes.
+You're familiar with the Frontend, which represents what the house looks like – color, walls, and the structure of the house. Now, let's explore the Backend, which is the what makes the house run and function.
 
 ### 🏠 Servers - The House's Functionality
 Imagine servers as your house's brain. They make everything in your house work, like turning on lights, keeping the rooms cool, and making sure stuff runs smoothly. When you want a light on, the brain (server) sends power to the light so it shines.
