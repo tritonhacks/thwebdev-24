@@ -12,4 +12,4 @@ permalink: /Frontend
 > By [name](github or linkedin)
 
 [Previous: User Experience](Design/User Experience){: .float-left .v-align-text-top}
-[Next: HTML](HTML){: .float-right .v-align-text-top}
+[Next: HTML](Frontend/HTML){: .float-right .v-align-text-top}

@@ -12,4 +12,4 @@ permalink: /Example
 > By [name](github or linkedin)
 
 [Previous: RESTful](Backend/RESTful){: .float-left .v-align-text-top}
-[Next: Frontend](Frontend){: .float-right .v-align-text-top}
+[Next: Frontend](Example/Frontend){: .float-right .v-align-text-top}
