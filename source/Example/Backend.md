@@ -22,4 +22,4 @@ nav_order: 2
 > By [name](github or linkedin)
 
 [Previous: Frontend](Frontend){: .float-left .v-align-text-top}
-[Next: Building our Website](Crafting the Website){: .float-right .v-align-text-top}
+[Next: Building our Website](Website){: .float-right .v-align-text-top}
