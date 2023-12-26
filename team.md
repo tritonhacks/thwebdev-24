@@ -1,6 +1,7 @@
 ---
 title: The Team
 layout: default
+permalink: /team
 nav_order: 6
 ---
 
