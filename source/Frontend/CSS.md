@@ -20,3 +20,6 @@ nav_order: 2
 
 {: .note }
 > By [name](github or linkedin)    
+
+[Previous: HTML](Frontend/HTML){: .float-left .v-align-text-top}
+[Next: Javascript](Frontend/Javascript){: .float-right .v-align-text-top}

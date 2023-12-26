@@ -19,3 +19,6 @@ nav_order: 2
 ---
 {: .note }
 > By [name](github or linkedin)
+
+[Previous: User Interaction](Design/User Interaction){: .float-left .v-align-text-top}
+[Next: Frontend](Frontend/Frontend){: .float-right .v-align-text-top}
