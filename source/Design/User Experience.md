@@ -21,4 +21,4 @@ nav_order: 2
 > By [name](github or linkedin)
 
 [Previous: User Interaction](User Interaction){: .float-left .v-align-text-top}
-[Next: Frontend](Frontend/Frontend){: .float-right .v-align-text-top}
+[Next: Frontend](Frontend/){: .float-right .v-align-text-top}

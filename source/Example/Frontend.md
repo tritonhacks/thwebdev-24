@@ -21,5 +21,5 @@ nav_order: 1
 {: .note }
 > By [name](github or linkedin)
 
-[Previous: An Example](Example/Example){: .float-left .v-align-text-top}
-[Next: Backend](Example/Backend){: .float-right .v-align-text-top}
+[Previous: An Example](../Example){: .float-left .v-align-text-top}
+[Next: Backend](Backend){: .float-right .v-align-text-top}

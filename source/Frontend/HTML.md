@@ -21,5 +21,5 @@ nav_order: 1
 {: .note }
 > By [name](github or linkedin)
 
-[Previous: Frontend](Frontend/Frontend){: .float-left .v-align-text-top}
-[Next: CSS](Frontend/CSS){: .float-right .v-align-text-top}
+[Previous: Frontend](../Frontend){: .float-left .v-align-text-top}
+[Next: CSS](CSS){: .float-right .v-align-text-top}
