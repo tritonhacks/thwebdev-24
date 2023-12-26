@@ -32,6 +32,6 @@ Design
 Frontend
 Backend
 
-[Previous: Home](../index){: .float-left .v-align-text-top}
+[Back to Home]({{ "/" | relative_url }}){: .float-left .v-align-text-top}
 [Next: Design](Design){: .float-right .v-align-text-top}
 
