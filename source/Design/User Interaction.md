@@ -21,5 +21,5 @@ nav_order: 1
 {: .note }
 > By [name](github or linkedin)
 
-[Previous: Design](){: .float-left .v-align-text-top}
+[Previous: Design](..){: .float-left .v-align-text-top}
 [Next: User Experience](User Experience){: .float-right .v-align-text-top}
