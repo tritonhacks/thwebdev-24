@@ -22,4 +22,4 @@ nav_order: 3
 > By [name](github or linkedin)
 
 [Previous: Databases](Databases){: .float-left .v-align-text-top}
-[Next: An Example](Example/){: .float-right .v-align-text-top}
+[Next: An Example](../Example){: .float-right .v-align-text-top}
