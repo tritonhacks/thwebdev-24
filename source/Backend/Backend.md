@@ -27,11 +27,7 @@ Imagine servers as your house's brain. They make everything in your house work, 
 Databases are like different energy companies delivering specific resources to your house. Each company supplies something different, just as databases hold various kinds of organized information. For example, one energy company might provide electricity, another gas, and another water. Similarly, different databases supply specific data types, keeping things organized like resources from different companies.
 
 ### 💡 RESTful - Controlling Household Systems
-RESTful is like the method we use to interact with things in the house. Similar to how you might switch on lights, turn on the faucet for water, or adjust the thermostat to get hot water or change room temperature, RESTful is a way to allows us to access and receive things from the household system. 
-
-This is just a change to demonstrate Jekyll.
-{: .text-green-300}
-
+RESTful is like the method we use to interact with things in the house. Similar to how you might switch on lights, turn on the faucet for water, or adjust the thermostat to get hot water or change room temperature, RESTful is a way to allows us to access and receive things from the household system.
 
 [Previous: Javascript](Frontend/Javascript){: .float-left .v-align-text-top}
 [Next: Servers](Backend/Servers){: .float-right .v-align-text-top}
