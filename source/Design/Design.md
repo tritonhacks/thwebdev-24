@@ -34,7 +34,7 @@ Think of UX as the interior design of your house. It's about creating a space wh
 ### 🎨 User Interaction (UI) - Designing the House's Controls
 UI is all about making the buttons and cool stuff on the website. It's like creating easy-to-click, good-looking controls, similar to designing a game controller. In web development, UI ensures the website is not just functional but also visually appealing and easy to navigate. 
 
-So, UX makes the website feel great, and UI makes it look awesome and easy to play around with. 🖱️💻✨
+UX makes the website feel great, and UI makes it look awesome and easy to play around with. 🖱️💻✨
 
 ![UX and UI with House Analogy](source/assets/images/ux_ui.jpg)
 
