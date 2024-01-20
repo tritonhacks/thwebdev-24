@@ -36,5 +36,7 @@ UI is all about making the buttons and cool stuff on the website. It's like crea
 
 So, UX makes the website feel great, and UI makes it look awesome and easy to play around with. 🖱️💻✨
 
+![UX and UI with House Analogy](source/assets/images/ux_ui.jpg)
+
 [Previous: What is Web Development?](What is Web Development){: .float-left .v-align-text-top}
 [Next: User Interaction](Design/User Interaction){: .float-right .v-align-text-top}
