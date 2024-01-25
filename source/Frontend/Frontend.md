@@ -23,7 +23,15 @@ permalink: /Frontend
 
 The Frontend can be described as what you see when you visit your favorite website. Whenever you watch YouTube or go on Instagram, what you are looking at is considered the front end of the website or app. The front end can be broken down into three main components:
 
+- HTML
+- CSS
+- JavaScript
+
+The gif below describes each of the front end components utilzing LEGOs
+
 ![HTML and CSS and JavaScript side by side](https://d2v4zi8pl64nxt.cloudfront.net/javascript-seo/5948abfc0e2df5.02876591.gif)
+
+Now, what is each of these components for, and what role does each component play in front end development?
 
 ### HTML - The skeleton of the website
 
