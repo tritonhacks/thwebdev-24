@@ -21,13 +21,7 @@ permalink: /Frontend
 {: .note }
 > By [Victor](https://linkedin.com/in/hsiaovictor)
 
-The Frontend can be described as what you see when you visit your favorite website. Whenever you watch YouTube or go on Instagram, what you are looking at is considered the front end of the website or app. The front end can be broken down into three main components:
-
-- HTML
-- CSS
-- JavaScript
-
-The gif below describes each of the front end components utilzing LEGOs
+Okay, imagine your favorite LEGO action figure as a cool website or app. The way it looks and feels when you play with it is like the front end. Now, let's break it down into three main components:
 
 ![HTML and CSS and JavaScript side by side](https://d2v4zi8pl64nxt.cloudfront.net/javascript-seo/5948abfc0e2df5.02876591.gif)
 
@@ -35,19 +29,19 @@ Now, what is each of these components for, and what role does each component pla
 
 ### HTML - The skeleton of the website
 
-Hypertext Markup Language, or HTML, provides the elements that you need for a website. We consider it the skeleton of the website because it provides the basic but essential components that a website and its webpages need. This ranges from text, images, buttons, etc. A basic HTML website can look like this:
+Hyper Text Markup Language, or HTML, is the blueprint for your LEGO action figure. It tells you how to put everything together and what each part is. If your action figure has a head, body, arms, and legs, HTML is the guide that says, "Put the head on top, connect the arms to the body, and attach the legs at the bottom." It's all about putting together the different pieces so that the figure (or website) looks the way you want it to!
 
 ![Basic HTML website](https://images.saymedia-content.com/.image/t_share/MTc0NjQ2NjgwMzU5MjE2OTEx/basic-web-design-with-html-css.png)
 
 ### CSS - What makes the website look pretty
 
-Cascading Style Sheets, or CSS, is what makes the website stand out in terms of style. It allows you to take basic HTML code and style it in any way that you want, which is why text can have different colors and fonts, buttons can have different styles with rounded curves, etc. Down below is DuckDuckGo with and without CSS
+Cascading Style Sheets, or CSS, is the paint and accessories for your LEGO figure. Once you've built the figure following the blueprint (HTML), CSS lets you decide how awesome it will look. Imagine giving your action figure a vibrant superhero costume, a shiny robot exterior, or a glittery princess dress—that's what CSS does for your website! It's the style master that adds colors and patterns to make your LEGO figure stand out and look super awesome!
 
 ![DuckDuckGo with and without CSS](https://i2.wp.com/css-tricks.com/wp-content/uploads/2019/04/s_601945040BCA3610D759145A4442799C97B904D9A9F8326DD30FDF0CF48A96B7_1555165463692_duckduckgo-compare.jpg?ssl=1)
 
 ### JavaScript - Allows users to interact with the website
 
-JavaScript is what makes a website dynamic and interactive. It takes a static HTML and CSS coded website and allows the user to interact with the elements on the website. It allows you to add animations and other interactive elements within your website. As you will see later, JavaScript can also be used for the back end, which is the code that runs in the background while you interact with the website
+JavaScript is the superpowers for your LEGO figure. Once you've built it (HTML) and styled it (CSS), JavaScript comes in to make it move and do amazing things. Imagine your action figure doing flips, karate kicks, or dancing—it's all thanks to JavaScript. So, when you click a button on a website and something cool happens, like a game starting or a video playing, that's JavaScript working its magical superpowers to bring your creation to life!
 
 ![JavaScript basic interactivity](https://media.giphy.com/media/XaefzCVVqg4Uw/giphy.gif)
 
