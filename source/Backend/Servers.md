@@ -34,7 +34,7 @@ On the hardware side, a web server is a computer that stores web server software
 
 When referring to a computer as a web server you may think of a computer like your laptop or PC at home and yes these are computers that can serve as web servers like shown in image 1. Web servers can be run on any computing device that is able to run the web server software. Web servers are also commonly run on computers specifically designed to serve the purpose as a server which are called rack servers that are encased in a large cabinet like shown in image 2.
 
-![Image of desktop computer](source/assets/images/desktop-Image.jpg) 	![Image of server rack](source/assets/images/server-rack-image.png)
+![Image of desktop computer](assets/images/desktop-Image.jpg) 	![Image of server rack](source/assets/images/server-rack-image.png)
 
 **Software:**
 On the software side, a web server includes several parts that control how web users access the hosted files on the server. At a minimum this is an HTTP server. An HTTP server is software that understands URLs (web addresses) and HTTP(Hypertext Transfer Protocol). The HTTP server can be accessed through the domain names of the websites it stores, and it delivers the content of these hosted websites to the user’s end. 
