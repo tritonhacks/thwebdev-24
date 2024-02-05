@@ -19,7 +19,7 @@ nav_order: 1
 ---
 
 {: .note }
-> By [Kevin Shin](https://www.linkedin.com/in/kevin-shin-373183188/)
+> By [Kevin](https://www.linkedin.com/in/kevin-shin-373183188/)
 
 With DEI in mind, let's explore some principles that can help us be more inclusive.
 ### User Interaction Principes
@@ -50,7 +50,7 @@ User testing with a diverse group provides insights into accessibility and usabi
 ![UI Image](../source/assets/images/UI.png)
 
 
-These are the most basic of them all. If you want to explore, you can learn more at [apple's guideline](https://developer.apple.com/design/human-interface-guidelines).
+These are the most basic of them all. If you want to explore, you can learn more at [Apple's guideline](https://developer.apple.com/design/human-interface-guidelines).
 
 [Previous: Design](../Design){: .float-left .v-align-text-top}
 [Next: User Experience](User Experience){: .float-right .v-align-text-top}
