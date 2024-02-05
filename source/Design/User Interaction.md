@@ -29,7 +29,7 @@ Ensuring content is readable for all, including those with visual impairments, i
 #### 🎨 **Use of Colors and Sounds**
 Proper color contrast and sound cues significantly improve usability for users with vision or hearing differences. This ensures that information is accessible and interaction is seamless for everyone.
 
-#### 🖼 **Alternative Text for Images **
+#### 🖼 **Alternative Text for Images**
 Alternative text for images is vital for users relying on screen readers, allowing them to comprehend visual content they cannot see, thereby making websites and apps more inclusive.
 
 #### 🎙 **Accessible Controls**
@@ -47,7 +47,7 @@ Providing intuitive feedback on errors helps users correct mistakes easily, impr
 #### 👥 **Testing with Real Users**
 User testing with a diverse group provides insights into accessibility and usability challenges, leading to digital products that are genuinely inclusive.
 
-![UI Image](source/assets/images/UI.png)
+![UI Image](../assets/images/UI.png)
 
 
 These are the most basic of them all. If you want to explore, you can learn more at [apple's guideline](https://developer.apple.com/design/human-interface-guidelines).

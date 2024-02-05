@@ -34,7 +34,7 @@ On the hardware side, a web server is a computer that stores web server software
 
 When referring to a computer as a web server you may think of a computer like your laptop or PC at home and yes these are computers that can serve as web servers like shown in image 1. Web servers can be run on any computing device that is able to run the web server software. Web servers are also commonly run on computers specifically designed to serve the purpose as a server which are called rack servers that are encased in a large cabinet like shown in image 2.
 
-![Image of desktop computer](source/assets/images/desktop-Image.jpg) 	![Image of server rack](source/assets/images/server-rack-image.png)
+![Image of desktop computer](../assets/images/desktop-Image.jpg) 	![Image of server rack](../assets/images/server-rack-image.png)
 
 **Software:**
 On the software side, a web server includes several parts that control how web users access the hosted files on the server. At a minimum this is an HTTP server. An HTTP server is software that understands URLs (web addresses) and HTTP(Hypertext Transfer Protocol). The HTTP server can be accessed through the domain names of the websites it stores, and it delivers the content of these hosted websites to the user’s end. 
@@ -44,7 +44,7 @@ The internet is made up of protocols which are sets of rules that govern the com
 **HTTP Explanation:**
 At the most basic level, whenever a web browser needs a file that is hosted on a web server, the browser requests the file via HTTP. When the request reaches the correct (hardware) web server, the (software) HTTP server accepts the request, finds the requested document, and sends it back to the browser, also through HTTP. (If the server doesn't find the requested document, it returns a 404 response instead.)
 
-![Image of HTTP request](source/assets/images/HTTP-request-image.png)
+![Image of HTTP request](../assets/images/HTTP-request-image.png)
 
 **To publish a website, you need either a static or a dynamic web server:**
 
@@ -60,7 +60,7 @@ For example let's say you the user is using a computer and have the google brows
 
 An analogy to think about this is like a restaurant. In the restaurant the kitchen would be considered the web server. Just like how the kitchen receives orders from the waitstaff (the users computer), prepares the food (processes the request) and then sends them back out to the waitstaff to be delivered to the customers (users web browser).
 
-![Image web server kitchen analogy](source/assets/images/web-server-kitchen-image.png)
+![Image web server kitchen analogy](../assets/images/web-server-kitchen-image.png)
 
 
 

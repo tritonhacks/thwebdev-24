@@ -48,11 +48,13 @@ Imagine you're at a huge amusement park with friends, but you notice that not ev
 - Inclusion is when we create an environment where everyone feels welcome and valued, and can participate fully 🤗.
 
 #### **Importance of DEI** 🌟
+{: .no_toc }
 Let's think about video games as an example. Imagine you have a friend who loves video games but can't play them because they're hard to see or hear, or because the controls aren't easy for them to use. That's not fair, right? Everyone should have the chance to play and enjoy the game 🎮.
 
 In the world of technology, not everyone fits the "average" mold. Some people might have difficulty seeing or hearing, others might have trouble moving their hands or arms, and there are countless other differences. When apps or websites are made only with the "average" person in mind, it leaves out a lot of people who could be enjoying them too.
 
 #### **Why should we care?** 💡
+{: .no_toc }
 Making technology accessible isn't just the right thing to do—it also makes sense from a business perspective. When more people can use an app or a website, it means more happy users and customers 📈.
 
 Think about it this way: if you're making lemonade to sell at a stand, wouldn't you want as many people as possible to be able to enjoy it? If some friends couldn't drink it because the cup was too hard for them to hold, you'd want to find a cup that everyone could hold, right? That's what DEI in technology is all about—making sure everyone can enjoy what's being created 🍋🥤.
@@ -61,7 +63,7 @@ So, next time you use your favorite app or play a game, think about how it was m
 
 Adding emojis like this throughout your text can make the content more accessible and enjoyable for readers, helping to convey your message with a mix of seriousness and levity.
 
-![DEI Image](source/assets/images/diversity-vs-equity-vs-inclusion.png)
+![DEI Image](../assets/images/diversity-vs-equity-vs-inclusion.png)
 
 [Previous: What is Web Development?](What is Web Development){: .float-left .v-align-text-top}
 [Next: User Interaction](Design/User Interaction){: .float-right .v-align-text-top}
