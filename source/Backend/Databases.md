@@ -21,7 +21,7 @@ nav_order: 2
 {: .note }
 > By [name](github or linkedin)
 
-{% include dark-mode-toggle.html %}
+
 
 [Previous: Servers](Servers){: .float-left .v-align-text-top}
 [Next: RESTful](RESTful){: .float-right .v-align-text-top}

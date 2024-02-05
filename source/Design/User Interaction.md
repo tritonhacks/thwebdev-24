@@ -21,7 +21,7 @@ nav_order: 1
 {: .note }
 > By [Kevin](https://www.linkedin.com/in/kevin-shin-373183188/)
 
-{% include dark-mode-toggle.html %}
+
 
 With DEI in mind, let's explore some principles that can help us be more inclusive.
 ### User Interaction Principes

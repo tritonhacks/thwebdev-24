@@ -21,7 +21,6 @@ nav_order: 3
 {: .note }
 > By [name](github or linkedin)
 
-{% include dark-mode-toggle.html %}
 
 [Previous: CSS](CSS){: .float-left .v-align-text-top}
 [Next: Backend](../Backend){: .float-right .v-align-text-top}

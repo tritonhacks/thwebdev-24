@@ -18,7 +18,7 @@ permalink: /Design
 {: .note }
 > By [Kevin](https://www.linkedin.com/in/kevin-shin-373183188/)
 
-{% include dark-mode-toggle.html %}
+
 
 Imagine a house that's basically impossible to live in. The kitchen is on the 2nd floor, bathrooms are on the first floor, and the bedrooms are tucked away in the basement – a total mess! Living there would be a real headache. Imagine having to climb up to the first floor every time you need the restroom, just because your room is in the basement. Plus, all the cooking happens on the 2nd floor. It's like a daily obstacle course! 😅 
 

@@ -21,7 +21,6 @@ nav_order: 3
 {: .note }
 > By [name](github or linkedin)
 
-{% include dark-mode-toggle.html %}
 
 [Previous: Backend](Backend){: .float-left .v-align-text-top}
 [Next: The Team]({{ "/team" | relative_url }}){: .float-right .v-align-text-top}

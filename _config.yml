@@ -1,15 +1,13 @@
 title: Web Development Documentation
 description: Web Development Starter Kit for the 2024 Triton Hackathon hosted by CS Foreach @ UCSD.
 theme: just-the-docs
-color_scheme: dark
+color_scheme: light
 
 url: https://tritonhacks.github.io/thwebdev-24
 
+back_to_top: true
+back_to_top_text: "Back to top"
+
+aux_links_new_tab: true
 aux_links:
   CS Foreach: https://www.csforeach.org/
-
-defaults:
-  - scope:
-      path: "" # An empty string here means all files in the project
-    values:
-      dark_mode_script: "dark-mode-toggle.html"

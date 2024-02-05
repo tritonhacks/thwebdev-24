@@ -19,7 +19,7 @@ nav_order: 2
 {: .note }
 By [Kevin](https://www.linkedin.com/in/kevin-shin-373183188/)
 
-{% include dark-mode-toggle.html %}
+
 
 Now that we know how to create good interactions, let's focus on user experience.
 
