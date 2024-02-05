@@ -71,4 +71,4 @@ We're then going to add these routes.
 ```
 
 [Previous: Frontend](Frontend){: .float-left .v-align-text-top}
-[Next: Building our Website](/Example){: .float-right .v-align-text-top}
+[Next: Building our Website](Example){: .float-right .v-align-text-top}

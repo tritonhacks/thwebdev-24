@@ -52,5 +52,5 @@ pip install uvicorn
 
 Once these are installed, you are all set up to start creating your website.
 
-[Previous: Example](/Example){: .float-left .v-align-text-top}
-[Next: Design Process](/Example/Design Process){: .float-right .v-align-text-top}
+[Previous: Example](Example){: .float-left .v-align-text-top}
+[Next: Design Process](Example/Design Process){: .float-right .v-align-text-top}

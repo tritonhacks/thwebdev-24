@@ -12,5 +12,5 @@ permalink: /Example
 > By [name](github or linkedin)
 
 
-[Previous: RESTful](/Backend/RESTful){: .float-left .v-align-text-top}
+[Previous: RESTful](Backend/RESTful){: .float-left .v-align-text-top}
 [Next: Getting Started](Getting Started){: .float-right .v-align-text-top}
