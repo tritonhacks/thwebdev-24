@@ -19,5 +19,5 @@ nav_order: 2
 {: .note }
 > By [Kevin](github or linkedin)
 
-[Previous: Getting Started](Example/Getting Started){: .float-left .v-align-text-top}
-[Next: Frontend](Example/Frontend){: .float-right .v-align-text-top}
+[Previous: Getting Started](Getting Started){: .float-left .v-align-text-top}
+[Next: Frontend](Frontend){: .float-right .v-align-text-top}

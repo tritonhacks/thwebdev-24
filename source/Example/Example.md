@@ -13,4 +13,4 @@ permalink: /Example
 
 
 [Previous: RESTful](Backend/RESTful){: .float-left .v-align-text-top}
-[Next: Getting Started](Getting Started){: .float-right .v-align-text-top}
+[Next: Getting Started](Example/Getting Started){: .float-right .v-align-text-top}
