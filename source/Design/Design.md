@@ -63,8 +63,6 @@ Think about it this way: if you're making lemonade to sell at a stand, wouldn't 
 
 So, next time you use your favorite app or play a game, think about how it was made and whether everyone can enjoy it as much as you do. And remember, in a world where everyone feels included, everyone wins! 🏆🌍
 
-Adding emojis like this throughout your text can make the content more accessible and enjoyable for readers, helping to convey your message with a mix of seriousness and levity.
-
 ![DEI Image](source/assets/images/diversity-vs-equity-vs-inclusion.png)
 
 [Previous: What is Web Development?](What is Web Development){: .float-left .v-align-text-top}
