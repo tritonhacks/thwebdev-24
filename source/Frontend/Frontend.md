@@ -21,6 +21,8 @@ permalink: /Frontend
 {: .note }
 > By [Victor](https://linkedin.com/in/hsiaovictor)
 
+{% include dark-mode-toggle.html %}
+
 Okay, imagine your favorite LEGO action figure as a cool website or app. The way it looks and feels when you play with it is like the front end. Now, let's break it down into three main components:
 
 ![HTML and CSS and JavaScript side by side](https://d2v4zi8pl64nxt.cloudfront.net/javascript-seo/5948abfc0e2df5.02876591.gif)

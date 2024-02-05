@@ -21,5 +21,7 @@ nav_order: 3
 {: .note }
 > By [name](github or linkedin)
 
+{% include dark-mode-toggle.html %}
+
 [Previous: Databases](Databases){: .float-left .v-align-text-top}
 [Next: An Example](../Example){: .float-right .v-align-text-top}

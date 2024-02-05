@@ -11,5 +11,7 @@ permalink: /Example
 {: .note }
 > By [name](github or linkedin)
 
+{% include dark-mode-toggle.html %}
+
 [Previous: RESTful](Backend/RESTful){: .float-left .v-align-text-top}
 [Next: Frontend](Example/Frontend){: .float-right .v-align-text-top}

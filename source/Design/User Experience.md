@@ -6,7 +6,6 @@ parent: Design
 permalink: /Design/User Experience
 nav_order: 2
 ---
-
 # User Experience
 {: .no_toc }
 
@@ -18,7 +17,9 @@ nav_order: 2
 
 ---
 {: .note }
-> By [Kevin](https://www.linkedin.com/in/kevin-shin-373183188/)
+By [Kevin](https://www.linkedin.com/in/kevin-shin-373183188/)
+
+{% include dark-mode-toggle.html %}
 
 Now that we know how to create good interactions, let's focus on user experience.
 
@@ -46,6 +47,11 @@ Also known as the 80/20 rule, this principle posits that 80% of effects come fro
 
 #### 🎢 **Peak-End Rule** 
 This rule suggests that people judge an experience not by the overall journey but by how they felt at its most intense point (the peak) and at its end. This is crucial for designing experiences that leave a lasting positive impression, even if not every moment was perfect.
+
+
+![UX_1 Image](../source/assets/images/ux_1.png)
+![UX_2 Image](../source/assets/images/ux_2.png)
+> By [Kryillos Samaan](https://www.linkedin.com/in/kyrillos-samaan/) {: .note .fs-1 }
 
 [Previous: User Interaction](User Interaction){: .float-left .v-align-text-top}
 [Next: Frontend](../Frontend){: .float-right .v-align-text-top}

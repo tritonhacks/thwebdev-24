@@ -21,5 +21,7 @@ nav_order: 1
 {: .note }
 > By [Victor Hsiao](https://www.linkedin.com/in/hsiaovictor/)
 
+{% include dark-mode-toggle.html %}
+
 [Previous: Frontend](../Frontend){: .float-left .v-align-text-top}
 [Next: CSS](CSS){: .float-right .v-align-text-top}

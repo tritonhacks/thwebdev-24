@@ -22,6 +22,8 @@ nav_order: 1
 {: .note }
 > By [Noah Terrell](github or linkedin)
 
+{% include dark-mode-toggle.html %}
+
 ### Simple Definition:
 A web server is a computer that stores and serves website files to other computers over the internet. It’s kind of like a library that has all of the books (websites) and gives them to people (computers) who want to read them.
 

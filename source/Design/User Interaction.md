@@ -21,6 +21,8 @@ nav_order: 1
 {: .note }
 > By [Kevin](https://www.linkedin.com/in/kevin-shin-373183188/)
 
+{% include dark-mode-toggle.html %}
+
 With DEI in mind, let's explore some principles that can help us be more inclusive.
 ### User Interaction Principes
 #### 🔍 **Adjustable Text Size and Font**
@@ -46,6 +48,7 @@ Providing intuitive feedback on errors helps users correct mistakes easily, impr
 
 #### 👥 **Testing with Real Users**
 User testing with a diverse group provides insights into accessibility and usability challenges, leading to digital products that are genuinely inclusive.
+
 
 ![UI Image](../source/assets/images/UI.png)
 

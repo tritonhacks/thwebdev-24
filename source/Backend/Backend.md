@@ -19,6 +19,8 @@ permalink: /Backend
 {: .note }
 > By [Kevin](https://www.linkedin.com/in/kevin-shin-373183188/)
 
+{% include dark-mode-toggle.html %}
+
 You're familiar with the Frontend, which represents what the house looks like – color, walls, and the structure of the house. Now, let's explore the Backend, which is what makes the house run and function.
 
 ### 🏠 Servers - The House's Functionality
