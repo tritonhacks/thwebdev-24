@@ -41,18 +41,18 @@ UX makes the website feel great, and UI makes it look awesome and easy to play a
 ### 🌍 Diversity, Equity, and Inclusion (DEI)
 Imagine you're at a huge amusement park with friends, but you notice that not everyone can get on the rides. Some of your friends are in wheelchairs 🦽, some can't see well 👓, and others find the loud noises really overwhelming 🙉. It wouldn't be fair if only a few of you could enjoy the park while others couldn't, right? This is where the idea of Diversity, Equity, and Inclusion (DEI) comes into play, but instead of amusement parks, we're talking about technology and software—like the apps on your phone or websites you visit 📱💻.
 
-#### What Do These Words Mean? 🤔
+#### **What Do These Words Mean?** 🤔
 {: .no_toc }
 - Diversity is about recognizing that everyone is unique, with different abilities, experiences, and needs 🌈.
 - Equity means making sure everyone has what they need to enjoy the same opportunities and experiences, which might look different for each person ⚖️.
 - Inclusion is when we create an environment where everyone feels welcome and valued, and can participate fully 🤗.
 
-#### Importance of DEI 🌟
+#### **Importance of DEI** 🌟
 Let's think about video games as an example. Imagine you have a friend who loves video games but can't play them because they're hard to see or hear, or because the controls aren't easy for them to use. That's not fair, right? Everyone should have the chance to play and enjoy the game 🎮.
 
 In the world of technology, not everyone fits the "average" mold. Some people might have difficulty seeing or hearing, others might have trouble moving their hands or arms, and there are countless other differences. When apps or websites are made only with the "average" person in mind, it leaves out a lot of people who could be enjoying them too.
 
-#### Why should we care? 💡
+#### **Why should we care?** 💡
 Making technology accessible isn't just the right thing to do—it also makes sense from a business perspective. When more people can use an app or a website, it means more happy users and customers 📈.
 
 Think about it this way: if you're making lemonade to sell at a stand, wouldn't you want as many people as possible to be able to enjoy it? If some friends couldn't drink it because the cup was too hard for them to hold, you'd want to find a cup that everyone could hold, right? That's what DEI in technology is all about—making sure everyone can enjoy what's being created 🍋🥤.
