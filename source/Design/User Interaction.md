@@ -16,12 +16,8 @@ nav_order: 1
 1. TOC
 {:toc}
 
----
-
 {: .note }
 > By [Kevin](https://www.linkedin.com/in/kevin-shin-373183188/)
-
-
 
 With DEI in mind, let's explore some principles that can help us be more inclusive.
 ### User Interaction Principes

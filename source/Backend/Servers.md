@@ -22,8 +22,6 @@ nav_order: 1
 {: .note }
 > By [Noah Terrell](github or linkedin)
 
-
-
 ### Simple Definition:
 A web server is a computer that stores and serves website files to other computers over the internet. It’s kind of like a library that has all of the books (websites) and gives them to people (computers) who want to read them.
 
@@ -62,9 +60,7 @@ For example let's say you the user is using a computer and have the google brows
 
 An analogy to think about this is like a restaurant. In the restaurant the kitchen would be considered the web server. Just like how the kitchen receives orders from the waitstaff (the users computer), prepares the food (processes the request) and then sends them back out to the waitstaff to be delivered to the customers (users web browser).
 
-![Image web server kitchen analogy](../source/assets/images/web-server-kitchen-image.png)
-
-
+![Image web server kitchen analogy](../source/assets/images/web-server-kitchen-image.jpg)
 
 
 [Previous: Backend](../Backend){: .float-left .v-align-text-top}

@@ -15,7 +15,6 @@ nav_order: 2
 1. TOC
 {:toc}
 
----
 {: .note }
 By [Kevin](https://www.linkedin.com/in/kevin-shin-373183188/)
 

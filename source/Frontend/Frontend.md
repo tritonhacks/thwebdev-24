@@ -16,8 +16,6 @@ permalink: /Frontend
 1. TOC
 {:toc}
 
-
-
 {: .note }
 > By [Victor](https://linkedin.com/in/hsiaovictor)
 

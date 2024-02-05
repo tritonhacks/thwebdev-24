@@ -16,8 +16,6 @@ nav_order: 2
 1. TOC
 {:toc}
 
----
-
 {: .note }
 > By [name](github or linkedin)    
 

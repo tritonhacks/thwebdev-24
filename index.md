@@ -6,9 +6,32 @@ nav_order: 1
 ---
 
 # TritonHacks Web Development <br> Starter Kit
-{: .note }
-> By [Victor](https://linkedin.com/in/hsiaovictor), [Noah](), [Kevin](https://www.linkedin.com/in/kevin-shin-373183188/), 
 
+> By [Victor](https://linkedin.com/in/hsiaovictor), [Noah](), [Kevin](https://www.linkedin.com/in/kevin-shin-373183188/), 
+{: .note }
+
+The following are the different callouts you can use. Reference the source code to use them.
+
+{: .important}
+If you are more comfortable with the dark theme, press the top right icon to switch. 
+
+{: .warning}
+text holder
+
+{: .hint}
+text holder
+
+{: .note}
+text holder
+
+{: .tip}
+text holder
+
+{: .caution}
+text holder
+
+{: .attention}
+text holder
 
 Welcome to Triton Hacks - your gateway to coding and tech exploration! This is the starter kit for those who want to learn about web development and how we can create websites!
 

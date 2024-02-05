@@ -16,8 +16,6 @@ nav_order: 1
 1. TOC
 {:toc}
 
----
-
 {: .note }
 > By [Victor Hsiao](https://www.linkedin.com/in/hsiaovictor/)
 
