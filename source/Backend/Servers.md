@@ -37,6 +37,11 @@ When referring to a computer as a web server you may think of a computer like yo
 
 ![Image of desktop computer](../source/assets/images/desktop-Image.jpg) 	![Image of server rack](../source/assets/images/server-rack-image.png)
 
+## Resources 
+
+ 
+
+
 ### Software:
 On the software side, a web server includes several parts that control how web users access the hosted files on the server. At a minimum this is an HTTP server. An HTTP server is software that understands URLs (web addresses) and HTTP(Hypertext Transfer Protocol). The HTTP server can be accessed through the domain names of the websites it stores, and it delivers the content of these hosted websites to the user’s end. 
 
@@ -49,9 +54,8 @@ At the most basic level, whenever a web browser needs a file that is hosted on a
 
 
 
-**To sum up Web Servers and analogy:**
-
-For example let's say you the user is using a computer and have the google browser open. You want to visit the website https://ucsd.edu/  and when you click the link, your computer sends an HTTP request to the UCSD webserver. The HTTP server part of the web server looks for the files that make up the UCSD website then the web server sends the files back to your browser where they can be viewed.  
+**analogy:**
+  
 
 An analogy to think about this is like a restaurant. In the restaurant the kitchen would be considered the web server. Just like how the kitchen receives orders from the waitstaff (the users computer), prepares the food (processes the request) and then sends them back out to the waitstaff to be delivered to the customers (users web browser).
 
