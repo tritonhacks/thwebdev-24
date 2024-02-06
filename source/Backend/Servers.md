@@ -8,7 +8,6 @@ nav_order: 1
 ---
 
 # What are Servers?
-
 {: .no_toc }
 
 ## Table of contents
@@ -26,10 +25,11 @@ nav_order: 1
 A web server is a computer that stores and serves website files to other computers over the internet. It’s kind of like a library that has all of the books (websites) and gives them to people (computers) who want to read them.
 
 
-**Lets Dig Deeper:**
+**Lets Dig Deeper**
+
 In the context of websites, web servers can refer to the hardware or software, or both of them working together. 
 
-## Hardware:
+### Hardware:
 On the hardware side, a web server is a computer that stores web server software and a website's component files like pictures, html, css, and javascript files. This web server is also able to exchange data between other devices connected to the web. 
 
 When referring to a computer as a web server you may think of a computer like your laptop or PC at home and yes these are computers that can serve as web servers like shown in image 1. Web servers can be run on any computing device that is able to run the web server software. Web servers are also commonly run on computers specifically designed to serve the purpose as a server which are called rack servers that are encased in a large cabinet like shown in image 2.
