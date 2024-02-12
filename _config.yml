@@ -1,8 +1,37 @@
 title: Web Development Documentation
 description: Web Development Starter Kit for the 2024 Triton Hackathon hosted by CS Foreach @ UCSD.
 theme: just-the-docs
+color_scheme: light
 
-url: https://kevshin2002.github.io/thwebdev
+url: https://tritonhacks.github.io/thwebdev-24
 
+back_to_top: true
+back_to_top_text: "Back to top"
+
+aux_links_new_tab: true
 aux_links:
   CS Foreach: https://www.csforeach.org/
+
+
+callouts:
+  warning:
+    title: Warning
+    color: yellow
+  hint:
+    title: Hint
+    color: grey-lt
+  important:
+    title: Important
+    color: blue
+  note:
+    title: Note
+    color: grey-dk
+  tip:
+    title: Tip
+    color: blue
+  caution:
+    title: Caution
+    color: red
+  attention:
+    title: Attention
+    color: purple

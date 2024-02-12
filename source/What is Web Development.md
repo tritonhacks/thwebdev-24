@@ -16,6 +16,8 @@ nav_order: 2
 {: .note }
 > By [Kevin](https://www.linkedin.com/in/kevin-shin-373183188/)
 
+
+
 ## Internet and Web Development
 The Internet is like a huge worldwide network that connects millions of devices together. It's a bit like a massive library, but instead of books, it stores information, pictures, videos, and much more. You can think of it as a place where people from all over the world can share and access information.
 
@@ -26,7 +28,12 @@ Websites are like individual rooms or spaces in this big library. Each website h
 Now, web development is the fascinating process of building these websites. It's like being an architect, designer, and storyteller all at once. People who work on web development use special computer languages and tools to create and design these online spaces.
 
 ## Components of Web Development
-Making a website usually consists of several teams, kind of how architects, engineers, and workers come together to build a house. When we create cool websites, there are three main groups involved: Design, Frontend, and Backend. Let's check out what they do!
+Making a website usually consists of several teams, kind of how architects, engineers, and workers come together to build a house. When we create cool websites, there are three main groups involved:
+- Design
+- Frontend
+- Backend
+
+Let's check out what they do!
 
 ### 🏠 The Design Team
 The design team are like the architects who draw the creative blueprints for the house. They focus on how the house will look and feel, deciding on the colors, layout, and style. Similarly, in web development, the design team plans how the website will appear to visitors. They choose the colors, shapes, and where things like buttons and pictures will go, making the website look fantastic!

@@ -4,7 +4,7 @@ title: Crafting the Website
 has_children: false
 parent: An Example
 permalink: /Example/Website
-nav_order: 3
+nav_order: 4
 ---
 
 # Creating the Website
@@ -16,10 +16,9 @@ nav_order: 3
 1. TOC
 {:toc}
 
----
-
 {: .note }
 > By [name](github or linkedin)
+
 
 [Previous: Backend](Backend){: .float-left .v-align-text-top}
 [Next: The Team]({{ "/team" | relative_url }}){: .float-right .v-align-text-top}

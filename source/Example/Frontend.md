@@ -4,7 +4,7 @@ title: Creating the Frontend
 has_children: false
 parent: An Example
 permalink: /Example/Frontend
-nav_order: 1
+nav_order: 3
 ---
 
 # Creating our Frontend
@@ -16,10 +16,10 @@ nav_order: 1
 1. TOC
 {:toc}
 
----
-
 {: .note }
 > By [name](github or linkedin)
 
-[Previous: An Example](../Example){: .float-left .v-align-text-top}
+
+
+[Previous: Design Process](Design Process){: .float-left .v-align-text-top}
 [Next: Backend](Backend){: .float-right .v-align-text-top}

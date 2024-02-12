@@ -16,10 +16,9 @@ nav_order: 2
 1. TOC
 {:toc}
 
----
-
 {: .note }
 > By [name](github or linkedin)    
+
 
 [Previous: HTML](HTML){: .float-left .v-align-text-top}
 [Next: Javascript](Javascript){: .float-right .v-align-text-top}

@@ -16,10 +16,9 @@ nav_order: 3
 1. TOC
 {:toc}
 
----
-
 {: .note }
 > By [name](github or linkedin)
+
 
 [Previous: CSS](CSS){: .float-left .v-align-text-top}
 [Next: Backend](../Backend){: .float-right .v-align-text-top}
