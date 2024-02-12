@@ -17,7 +17,15 @@ nav_order: 2
 {:toc}
 
 {: .note }
-> By [name](github or linkedin)    
+> By [Victor Hsiao](https://www.linkedin.com/in/hsiaovictor/)    
+
+To add CSS to our webpages, we use the ```<link>``` tag, which we add to the ```<head>``` section in our HTML
+
+```<link rel="stylesheet" href="(name of css file).css" />```
+
+We add the rel attribute and specify it as a "stylesheet" to specify that we want to add CSS code to our HTML, and then the href attribute to link our CSS code to the HTML
+
+We will now discuss different 
 
 
 [Previous: HTML](HTML){: .float-left .v-align-text-top}
