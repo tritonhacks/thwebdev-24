@@ -7,7 +7,7 @@ permalink: /Backend/Servers
 nav_order: 1
 ---
 
-# What are Servers? 
+# What are Servers?
 {: .no_toc }
 
 ## Table of contents
@@ -21,50 +21,25 @@ nav_order: 1
 {: .note }
 > By [Noah Terrell](github or linkedin)
 
-### Simple Definition: 💻
-{: .no_toc }
-A web server is a computer that stores and serves website files to other computers over the internet. It’s kind of like a library that has all of the books (websites) and gives them to people (computers) who want to read them.
+Before we can dive into what a server technically is, we need to understand how computers communicate with each other. Humans communicate with languages, but computers communicate with each other using what we call the Hypertext Transfer Protocol (HTTP).
 
+### Understanding Hypertext Transfer Protocol (HTTP) 🖥️
+HTTP is the foundational protocol used by the internet. It defines the rules and standards for transmitting and receiving data over the internet. Imagine it as the common language that computers use to talk to one another. When you want to visit a webpage, your computer sends an HTTP request to the server where that page lives, asking for the page to be sent to you. The server, understanding your request through HTTP, responds by sending the webpage back to your computer in the form of different files which your browser renders for you. 
 
-**Lets Dig Deeper**
+When you enter a restaurant, imagine it's like typing a website address into your browser. In this scenario, you (the customer) are like the browser, or the client, stepping into the restaurant to have a meal. This process is similar to using HTTP on the internet, which is the method your browser uses to communicate your request in a language that the website's server (think of it as the kitchen where your meal is prepared) can understand.
 
-In the context of websites, web servers can refer to the hardware or software, or both of them working together.🔌🔀
+Once the website's server receives your letter, it sends back a package containing everything you need to visit the website, such as text, images, and videos. This package is also sent via HTTP, ensuring that your browser can understand and display the website correctly for you.
 
-## Hardware: ⚙️🔩
-On the hardware side, a web server is a computer that stores web server software and a website's component files like pictures, html, css, and javascript files. This web server is also able to exchange data between other devices connected to the web. 
+![HTTP Image](/source/assets/images/http.png)
 
-When referring to a computer as a web server, you may think of a computer like your laptop or PC at home. Yes, these are computers that can serve as web servers, as shown in Image 1. Web servers can run on any computing device that is able to run the web server software. They are also commonly run on computers specifically designed to serve the purpose as a server, which are called rack servers. These servers are encased in a large cabinet, as shown in Image 2.
+### Servers: The Backbone of a Website 🍽️
+Let's dive a bit deeper into what a server is on the internet, drawing from our restaurant analogy. In a restaurant, your server plays a crucial role: guiding you to your seat, taking your meal order, and delivering your food to you. But remember, they don't cook the food; that's the chef's job.
 
-![Image of desktop computer](../source/assets/images/desktop-Image.jpg) 	![Image of server rack](../source/assets/images/server-rack-image.png)
+However, in the digital "restaurants" that is the internet, servers operate a bit differently. Imagine you're craving to view a specific webpage, much like how you'd order a dish at a restaurant. When you type a website's address into your browser, it's similar to placing your order. This is where the web server steps in, acting not just as your server but also as the chef.
 
-### Resources With  Hardware Analogy <span style="font-size:120%;">💾</span>
+A web server is essentially a computer program that's ready to fulfill your order. But instead of heading to the kitchen, it searches its digital shelves for the webpage you've requested. Once found, it prepares this "digital dish" by gathering all the necessary files — text, images, videos — and sends them directly to your screen.
 
-One way to think about the hardware of a web server (the computer 🖥️) is to look at it like it's the kitchen of a restaurant 🧑‍🍳. We know that in order for a restaurant to work, it needs kitchen equipment like the stove, sink, oven, etc. Similarly, for a computer to work, it needs hardware resources such as the CPU, RAM, motherboard, storage, etc. Now that we have all of these components working together in the computer, we are ready to use it as our web server. However, we still need the software aspect for our web server to be fully functional. Just like how the kitchen is useless without staff to prepare food 🍜. Let's now look at the software side of the web server. 
-
-
-## Software: <span style="font-size:150%;">🧠</span> 
-
-Web server software encompasses programs or applications installed on a computer, enabling it to perform the functionality of a web server. This includes responding to requests from web browsers and serving web content over the internet. At its core, a web server includes an HTTP server—a software component that interprets URLs and HTTP, allowing access to hosted files via domain names and delivering website content to users.
-
-
-**HTTP Explanation: 🖥️➡️🛜⬅️🧑‍💻**
-
-At the most basic level, whenever a web browser needs a file that is hosted on a web server, the browser requests the file via HTTP. When the request reaches the correct (hardware) web server, the (software) HTTP server accepts the request, finds the requested document, and sends it back to the browser, also through HTTP. (If the server doesn't find the requested document, it returns a 404 response instead.)
-
-![Image of HTTP request](../source/assets/images/HTTP-request-image.png)
-
-
-### Resources With Software Analogy <span style="font-size:150%;">🧑‍🍳➡️🤵⬅️🍽️😎</span> 
-
-These programs handle various tasks that utilize the computer's resources. Some of the computer's components that the web server software uses, for example, are the CPU (Central Processing Unit) to process tasks 🧠, interpret requests, and execute code. It uses the RAM (Random Access Memory) to store data and code that the web server needs to access quickly, including website files 📁 and database information. Additionally, it utilizes the computer's storage 💾 to store things like website files and databases. Lastly, the Network Interface enables communication between the web server and clients (web browsers) over the internet🛜.
-
-
-Returning to the analogy of the web server as a kitchen, just as a kitchen has equipment that needs to be utilized, the server (computer) has components that we need to use in order to function as a web server. We can think of the software as the restaurant staff and the website files as the food.
-
-When the chefs receive an order and use the stoves to prepare the food, this is similar to how the web servers receive a request and then use resources like the CPU to process the request and look for the website files🔀📁. Then, when the food is ready to be served, the chefs give the server the food to then be delivered to the customer. Similarly, when the web server finds the website files from the storage, it then uses the network interface to deliver the website files to the user🛜.
- 
-
-To summarize this analogy comprehensively, including all parts of the web server, we can think of it like this: When a user visits a website, it's like entering a restaurant and placing an order. The web server (kitchen) receives the request, processes it using the web server software (staff), retrieves the necessary website files (food) from storage (kitchen equipment), and serves them back to the user, allowing them to enjoy the content of the website, much like savoring a delicious meal at a restaurant. 🍽️😋
+What sets a web server apart from a restaurant server is its ability to do it all: taking your request, preparing your order, and delivering it to you, all by itself. In this digital dining experience, the server is the multitasking maestro, ensuring you get exactly what you asked for, straight to your device. This makes the web server an all-in-one package — both the server and chef of the internet world, ready to cater to your digital cravings.
 
 ![Image web server kitchen analogy](../source/assets/images/web-server-kitchen-image.jpg)
 

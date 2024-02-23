@@ -16,7 +16,8 @@ nav_order: 2
 {: .note }
 > By [Kevin](https://www.linkedin.com/in/kevin-shin-373183188/)
 
-
+{: .attention }
+The starter kit goes over the surface level of web development. It is a very high-level perspective and there's so much more going on under the cover. Take each explanation with a grain of salt as it's meant to introduce you to these ideas.
 
 ## Internet and Web Development
 The Internet is like a huge worldwide network that connects millions of devices together. It's a bit like a massive library, but instead of books, it stores information, pictures, videos, and much more. You can think of it as a place where people from all over the world can share and access information.
