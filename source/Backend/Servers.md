@@ -30,7 +30,7 @@ When you enter a restaurant, imagine it's like typing a website address into you
 
 Once the website's server receives your letter, it sends back a package containing everything you need to visit the website, such as text, images, and videos. This package is also sent via HTTP, ensuring that your browser can understand and display the website correctly for you.
 
-![HTTP Image](/source/assets/images/http.png)
+![HTTP Image](../source/assets/images/http.png)
 
 ### Servers: The Backbone of a Website 🍽️
 Let's dive a bit deeper into what a server is on the internet, drawing from our restaurant analogy. In a restaurant, your server plays a crucial role: guiding you to your seat, taking your meal order, and delivering your food to you. But remember, they don't cook the food; that's the chef's job.
