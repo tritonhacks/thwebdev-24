@@ -7,5 +7,5 @@ has_toc: false
 has_children: true
 ---
 
-[Previous: RESTful](../Web Development Concepts/Backend/RESTful){: .float-left .v-align-text-top}
+[Previous: RESTful](Web Development Concepts/Backend/RESTful){: .float-left .v-align-text-top}
 [Next: Getting Started](Tutorials/Getting Started){: .float-right .v-align-text-top}
