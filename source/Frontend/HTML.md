@@ -90,17 +90,27 @@ There are two types of lists in HTML:
 1. ordered lists
 2. unordered lists
 
-#### Ordered Lists
+#### **Ordered Lists**
 
+To specify an unordered lists, you use the `<ol>` tag.
 
+With ordered lists, your list items would be in a certain order, going from 1, 2, 3, 4, and so forth
 
-#### Unordered Lists
+![ordered list](https://th.bing.com/th/id/OIP.Cpx_G8zpj83y636HSsMcrgHaFj?rs=1&pid=ImgDetMain)
+
+Same as ordered lists, to add items to your unordered list you use the `<li>` tag.
+
+#### **Unordered Lists**
 
 To specify an unordered lists, you use the `<ul>` tag.
 
 Same as ordered lists, to add items to your unordered list you use the `<li>` tag.
 
+Instead of ordered numbers, there would be a bullet point or some form of separator at the front of each list item
 
+Unordered lists would look like this:
+
+![unordered list](https://th.bing.com/th/id/OIP.HfkBXgQPgATQswMMF43-bwHaEJ?rs=1&pid=ImgDetMain)
 
 ### The `<img>` tag
 
