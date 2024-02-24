@@ -43,5 +43,5 @@ JavaScript acts as the superpowers for your LEGO figure. After building it with 
 
 ![JavaScript basic interactivity](https://media.giphy.com/media/XaefzCVVqg4Uw/giphy.gif)
 
-[Previous: User Experience](../Design/User Experience){: .float-left .v-align-text-top}
-[Next: HTML](HTML){: .float-right .v-align-text-top}
+[Previous: User Experience](Web Development Concepts/Design/User Experience){: .float-left .v-align-text-top}
+[Next: HTML](Frontend/HTML){: .float-right .v-align-text-top}

@@ -50,5 +50,5 @@ Now, the backend team is like the engineers and the house's hidden systems—thi
 ![Website and House with Tech](../source/assets/images/website_house_tech_analogy.png)
 
 [Back to Home]({{ "/" | relative_url }}){: .float-left .v-align-text-top}
-[Next: Design](Design){: .float-right .v-align-text-top}
+[Next: Design](Web Development Concepts/Design){: .float-right .v-align-text-top}
 
