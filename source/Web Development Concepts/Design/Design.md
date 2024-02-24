@@ -63,5 +63,5 @@ So, next time you use your favorite app or play a game, think about how it was m
 
 ![DEI Image](../../source/assets/images/diversity-vs-equity-vs-inclusion.png)
 
-[Previous: Web Development Concepts](../){: .float-left .v-align-text-top}
+[Previous: Web Development Concepts](../Web Development Concepts){: .float-left .v-align-text-top}
 [Next: User Interaction](Design/User Interaction){: .float-right .v-align-text-top}
