@@ -1,10 +1,11 @@
 ---
 layout: default
 title: RESTful Routes
-has_children: false
+nav_order: 4
+permalink: Web Development Concepts/Backend/RESTful
+grand_parent: Web Development Concepts
 parent: Backend
-permalink: /Backend/RESTful
-nav_order: 3
+has_children: false
 ---
 
 # What does RESTful mean?
@@ -16,10 +17,7 @@ nav_order: 3
 1. TOC
 {:toc}
 
-{: .note }
-> By [name](github or linkedin)
-
-
+---
 
 [Previous: Databases](Databases){: .float-left .v-align-text-top}
-[Next: An Example](../Example){: .float-right .v-align-text-top}
+[Next: Tutorials](../../Tutorials){: .float-right .v-align-text-top}

@@ -1,10 +1,11 @@
 ---
 layout: default
 title: Javascript
-has_children: false
-parent: Frontend
-permalink: /Frontend/Javascript
 nav_order: 3
+permalink: Web Development Concepts/Frontend/Javascript
+grand_parent: Web Development Concepts
+parent: Frontend
+has_children: false
 ---
 
 # What is Javascript (JS)?
@@ -16,8 +17,7 @@ nav_order: 3
 1. TOC
 {:toc}
 
-{: .note }
-> By [Victor Hsiao](https://www.linkedin.com/in/hsiaovictor/)
+---
 
 To add JavaScript to your website, 
 

@@ -1,10 +1,11 @@
 ---
 layout: default
 title: Cascading Style Sheets
-has_children: false
-parent: Frontend
-permalink: /Frontend/CSS
 nav_order: 2
+permalink: Web Development Concepts/Frontend/CSS
+grand_parent: Web Development Concepts
+parent: Frontend
+has_children: false
 ---
 
 # What are Cascading Style Sheets (CSS)?
@@ -16,8 +17,7 @@ nav_order: 2
 1. TOC
 {:toc}
 
-{: .note }
-> By [Victor Hsiao](https://www.linkedin.com/in/hsiaovictor/)    
+---
 
 To add CSS to our webpages, we use the ```<link>``` tag, which we add to the ```<head>``` section in our HTML
 

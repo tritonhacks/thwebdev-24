@@ -1,10 +1,11 @@
 ---
 layout: default
 title: User Experience
-has_children: false
-parent: Design
-permalink: /Design/User Experience
 nav_order: 2
+permalink: Web Development Concepts/Design/User Experience
+grand_parent: Web Development Concepts
+parent: Design
+has_children: false
 ---
 # User Experience
 {: .no_toc }
@@ -15,13 +16,8 @@ nav_order: 2
 1. TOC
 {:toc}
 
-{: .note }
-By [Kevin](https://www.linkedin.com/in/kevin-shin-373183188/)
-
-
-
+---
 Now that we know how to create good interactions, let's focus on user experience.
-
 ## User Experience Principles
 ### 🖌️ Aesthetic-Usability Effect
 This law suggests that designs which are aesthetically pleasing are perceived as easier to use by people. It's not just about looking good; a well-designed interface can make users more forgiving of minor usability issues. This effect shows the power of first impressions and the importance of visual appeal in user interface design.
@@ -48,8 +44,8 @@ Also known as the 80/20 rule, this principle posits that 80% of effects come fro
 This rule suggests that people judge an experience not by the overall journey but by how they felt at its most intense point (the peak) and at its end. This is crucial for designing experiences that leave a lasting positive impression, even if not every moment was perfect.
 
 
-![UX_1 Image](../source/assets/images/ux_1.png)
-![UX_2 Image](../source/assets/images/ux_2.png)
+![UX_1 Image](../../source/assets/images/ux_1.png)
+![UX_2 Image](../../source/assets/images/ux_2.png)
 > By [Kryillos Samaan](https://www.linkedin.com/in/kyrillos-samaan/)
  {: .fs-3 }
 

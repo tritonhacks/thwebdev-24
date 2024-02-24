@@ -1,10 +1,10 @@
 ---
 layout: default
 title: Getting Started
-has_children: false
-parent: An Example
-permalink: /Example/Getting Started
 nav_order: 1
+permalink: Tutorials/Getting Started
+parent: Tutorials
+has_children: false
 ---
 
 # Getting Started
@@ -16,8 +16,7 @@ nav_order: 1
 1. TOC
 {:toc}
 
-{: .note }
-> By [Kevin](https://www.linkedin.com/in/kevin-shin-373183188/)
+---
 
 {: .caution}
 This documentation is only for Windows.
@@ -52,5 +51,5 @@ pip install uvicorn
 
 Once these are installed, you are all set up to start creating your website.
 
-[Previous: Example](../Example){: .float-left .v-align-text-top}
-[Next: Design Process](Design Process){: .float-right .v-align-text-top}
+[Previous: Tutorials](../Tutorials){: .float-left .v-align-text-top}
+[Next: HTML, CS, Javascript](HTML_CSS_JS){: .float-right .v-align-text-top}

@@ -1,10 +1,10 @@
 ---
 layout: default
 title: Design Process
-has_children: false
-parent: An Example
+nav_order: 1
 permalink: /Example/Design Process
-nav_order: 2
+parent: An Example
+has_children: false
 ---
 
 # Design Process
@@ -16,8 +16,7 @@ nav_order: 2
 1. TOC
 {:toc}
 
-{: .note }
-> By [Kevin](github or linkedin)
+---
 
 [Previous: Getting Started](Getting Started){: .float-left .v-align-text-top}
 [Next: Frontend](Frontend){: .float-right .v-align-text-top}

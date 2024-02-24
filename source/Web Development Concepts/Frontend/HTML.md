@@ -1,10 +1,11 @@
 ---
 layout: default
 title: Hypertext Markup Language
-has_children: false
-parent: Frontend
-permalink: /Frontend/HTML
 nav_order: 1
+permalink: Web Development Concepts/Frontend/HTML
+grand_parent: Web Development Concepts
+parent: Frontend
+has_children: false
 ---
 
 # What is Hypertext Markup Language (HTML)?
@@ -16,8 +17,7 @@ nav_order: 1
 1. TOC
 {:toc}
 
-{: .note }
-> By [Victor Hsiao](https://www.linkedin.com/in/hsiaovictor/)
+---
 
 HTML serves as the building blocks for our website. It represents the different pieces for your LEGO figure, the head, arms, body, legs.
 

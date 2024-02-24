@@ -2,9 +2,10 @@
 layout: default
 title: Frontend
 nav_order: 4
+permalink: Web Development Concepts/Frontend
+parent: Web Development Concepts
 has_toc: false
 has_children: true
-permalink: /Frontend
 ---
 
 # What is the Frontend?
@@ -16,8 +17,7 @@ permalink: /Frontend
 1. TOC
 {:toc}
 
-{: .note }
-> By [Victor](https://linkedin.com/in/hsiaovictor)
+---
 
 Okay, imagine your favorite LEGO action figure as a cool website or app. The way it looks and feels when you play with it is like the front end. Now, let's break it down into three main components:
 
@@ -43,5 +43,5 @@ JavaScript acts as the superpowers for your LEGO figure. After building it with 
 
 ![JavaScript basic interactivity](https://media.giphy.com/media/XaefzCVVqg4Uw/giphy.gif)
 
-[Previous: User Experience](Design/User Experience){: .float-left .v-align-text-top}
-[Next: HTML](Frontend/HTML){: .float-right .v-align-text-top}
+[Previous: User Experience](../Design/User Experience){: .float-left .v-align-text-top}
+[Next: HTML](HTML){: .float-right .v-align-text-top}

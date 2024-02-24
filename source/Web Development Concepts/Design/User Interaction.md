@@ -1,10 +1,11 @@
 ---
 layout: default
 title: User Interaction
-has_children: false
-parent: Design
-permalink: /Design/User Interaction
 nav_order: 1
+permalink: Web Development Concepts/Design/User Interaction
+grand_parent: Web Development Concepts
+parent: Design
+has_children: false
 ---
 
 # User Interaction
@@ -16,8 +17,7 @@ nav_order: 1
 1. TOC
 {:toc}
 
-{: .note }
-> By [Kevin](https://www.linkedin.com/in/kevin-shin-373183188/)
+---
 
 With DEI in mind, let's explore some principles that can help us be more inclusive.
 ## User Interaction Principes
@@ -46,7 +46,7 @@ Providing intuitive feedback on errors helps users correct mistakes easily, impr
 User testing with a diverse group provides insights into accessibility and usability challenges, leading to digital products that are genuinely inclusive.
 
 
-![UI Image](../source/assets/images/UI.png)
+![UI Image](../../source/assets/images/UI.png)
 
 
 These are the most basic of them all. If you want to explore, you can learn more at [Apple's guideline](https://developer.apple.com/design/human-interface-guidelines).

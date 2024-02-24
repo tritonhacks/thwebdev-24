@@ -1,10 +1,10 @@
 ---
 layout: default
 title: Creating the Backend
-has_children: false
-parent: An Example
+nav_order: 3
 permalink: /Example/Backend
-nav_order: 4
+parent: An Example
+has_children: false
 ---
 
 # Creating our Backend
@@ -16,8 +16,7 @@ nav_order: 4
 1. TOC
 {:toc}
 
-{: .note }
-> By [name](github or linkedin)
+---
 
 ### <img src="../source/assets/images/fastapi-1.svg" alt="FastAPI Logo" width="15" height="15"> FastAPI
 For our Web Development Starter Kit, we'll be utilizing FastAPI, an essential toolkit for those creating websites and web applications. Consider FastAPI as a collection of foundational tools that developers employ to build and manage the unseen components of websites or apps. These components are crucial for functions like securely transmitting your data during sign-ups or log-ins.

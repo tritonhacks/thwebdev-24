@@ -2,9 +2,10 @@
 layout: default
 title: Design
 nav_order: 3
+permalink: Web Development Concepts/Design
+parent: Web Development Concepts
 has_toc: false
 has_children: true
-permalink: /Design
 ---
 # Significance of Design
 {: .no_toc }
@@ -15,10 +16,7 @@ permalink: /Design
 1. TOC
 {:toc}
 
-{: .note }
-> By [Kevin](https://www.linkedin.com/in/kevin-shin-373183188/)
-
-
+---
 
 Imagine a house that's basically impossible to live in. The kitchen is on the 2nd floor, bathrooms are on the first floor, and the bedrooms are tucked away in the basement – a total mess! Living there would be a real headache. Imagine having to climb up to the first floor every time you need the restroom, just because your room is in the basement. Plus, all the cooking happens on the 2nd floor. It's like a daily obstacle course! 😅 
 
@@ -38,7 +36,7 @@ UI is all about making the buttons and cool stuff on the website. It's like crea
 
 UX makes the website feel great, and UI makes it look awesome and easy to play around with. 🖱️💻✨
 
-![UX and UI with House Analogy](source/assets/images/ux_ui.jpg)
+![UX and UI with House Analogy](../../source/assets/images/ux_ui.jpg)
 
 ## 🌍 Diversity, Equity, and Inclusion (DEI)
 Imagine you're at a huge amusement park with friends, but you notice that not everyone can get on the rides. Some of your friends are in wheelchairs 🦽, some can't see well 👓, and others find the loud noises really overwhelming 🙉. It wouldn't be fair if only a few of you could enjoy the park while others couldn't, right? This is where the idea of Diversity, Equity, and Inclusion (DEI) comes into play, but instead of amusement parks, we're talking about technology and software—like the apps on your phone or websites you visit 📱💻.
@@ -63,7 +61,7 @@ Think about it this way: if you're making lemonade to sell at a stand, wouldn't 
 
 So, next time you use your favorite app or play a game, think about how it was made and whether everyone can enjoy it as much as you do. And remember, in a world where everyone feels included, everyone wins! 🏆🌍
 
-![DEI Image](source/assets/images/diversity-vs-equity-vs-inclusion.png)
+![DEI Image](../../source/assets/images/diversity-vs-equity-vs-inclusion.png)
 
-[Previous: What is Web Development?](What is Web Development){: .float-left .v-align-text-top}
-[Next: User Interaction](Design/User Interaction){: .float-right .v-align-text-top}
+[Previous: Web Development Concepts](../){: .float-left .v-align-text-top}
+[Next: User Interaction](User Interaction){: .float-right .v-align-text-top}

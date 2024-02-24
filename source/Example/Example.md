@@ -1,15 +1,22 @@
 ---
 layout: default
 title: An Example
-nav_order: 5
+nav_order: 7
+permalink: /Example
 has_toc: false
 has_children: true
-permalink: /Example
 ---
 
 # Designing our Website
-{: .note }
-> By [name](github or linkedin)
+{: .no_toc }
+
+## Table of contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
+---
 
 
 [Previous: RESTful](Backend/RESTful){: .float-left .v-align-text-top}
