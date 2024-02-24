@@ -1,10 +1,11 @@
 ---
 layout: default
 title: Hypertext Markup Language
-has_children: false
-parent: Frontend
-permalink: /Frontend/HTML
 nav_order: 1
+permalink: Web Development Concepts/Frontend/HTML
+grand_parent: Web Development Concepts
+parent: Frontend
+has_children: false
 ---
 
 # What is Hypertext Markup Language (HTML)?

@@ -1,10 +1,11 @@
 ---
 layout: default
 title: Cascading Style Sheets
-has_children: false
-parent: Frontend
-permalink: /Frontend/CSS
 nav_order: 2
+permalink: Web Development Concepts/Frontend/CSS
+grand_parent: Web Development Concepts
+parent: Frontend
+has_children: false
 ---
 
 # What are Cascading Style Sheets (CSS)?
