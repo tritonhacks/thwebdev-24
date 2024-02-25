@@ -21,7 +21,7 @@ has_toc: false
 
 ### HTML
 
-#### The `<head>` tag
+#### **The `<head>` tag**
 
 The head tag represents the set up for our HTML page
 
@@ -33,7 +33,7 @@ We use the `<link>` tag for when we want to link a CSS stylesheet to our page, f
 
 We will outline the multiple components that every HTML website has:
 
-#### The header tags
+#### **The header tags**
 
 Header tags represent the titles of our HTML
 
@@ -45,7 +45,7 @@ To use a header tag, you would do:
 
 ![](https://th.bing.com/th/id/R.f31151c9930cad0b53977ddf32d16c4d?rik=RvEoDf4v8g7cUA&riu=http%3a%2f%2fictacademy.com.ng%2fwp-content%2fuploads%2f2017%2f10%2fHeading-Tag-Hierarchy.jpg&ehk=38aWjqrzDxhB1GMnv1P4RIyBArTDY3czYf0xm8uapJw%3d&risl=&pid=ImgRaw&r=0)
 
-#### The `<p>` tag
+#### **The `<p>` tag**
 
 The `<p>` tag is used for big blocks of text, or paragraphs. We use it when we want to include big blocks of text on our website, like for a blog or article
 
@@ -53,7 +53,7 @@ The `<p>` tag is used for big blocks of text, or paragraphs. We use it when we w
 
 ![p tag](https://blog.hubspot.com/hs-fs/hubfs/Google%20Drive%20Integration/Using%20the%20%3Cp%3E%20Tag%20in%20HTML-1.png?width=657&name=Using%20the%20%3Cp%3E%20Tag%20in%20HTML-1.png)
 
-#### The `<a>` tag
+#### **The `<a>` tag**
 
 The `<a>` tag is a tag is used to link other webpages or websites. 
 
@@ -63,7 +63,7 @@ To use an `<a>` tag, you have to specify the href attribute, which is the url th
 
 In between the opening and closing `<a>` tags, you insert some text that serves as the link. The default blue color text with the underline shows that the text is a link.
 
-#### The list tags
+#### **The list tags**
 
 There are two types of lists in HTML:
 
@@ -92,7 +92,7 @@ Unordered lists would look like this:
 
 ![unordered list](https://th.bing.com/th/id/OIP.HfkBXgQPgATQswMMF43-bwHaEJ?rs=1&pid=ImgDetMain)
 
-#### The `<img>` tag
+#### **The `<img>` tag**
 
 The `<img>` tag is used to add images to our website.
 
@@ -104,7 +104,9 @@ Unlike the other tags, the image tag does not have a self-closing tag, so instea
 
 ### CSS
 
-When we want to add CSS styling to any of our HTML elements, to select the specific HTML elements we want to style, we would use one of the two types of CSS selectors
+When we want to add CSS styling to any of our HTML elements, to select the specific HTML elements we want to style, there are a few different type of CSS selectors we can use
+
+#### **Element Selectors**
 
 #### **ID Selectors**
 
@@ -145,6 +147,38 @@ To add style attributes to a class, we use the `.` tag instead
     (insert styles here)
 }
 ```
+
+#### **Basic Style Attributes**
+
+There are many different types of style attributes, but we'll lay out some basic ones.
+
+When writing any CSS code, you have to write it like this:
+
+![CSS basic style example](https://res.cloudinary.com/practicaldev/image/fetch/s--Uvc4p-Vs--/c_imagga_scale,f_auto,fl_progressive,h_900,q_auto,w_1600/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/edojfcbz6sr7j0b2l6v1.jpg)
+
+The ones below are style attributes you would use for **text**
+
+**font-size**: changes the size of the text (font size is based on pixels, or px)
+
+`font-size: 16px;`
+
+**color**: changes the color of the text
+
+`color: blue;`
+
+**font-family**: give a specific font to selected text, there are many different font styles out there (the default is sans-serif)
+
+`font-family: sans-serif;`
+
+**text-align**: controls how text is aligned on a page, can be aligned left, right, or center
+
+`text-align: center;`
+
+For a full list of CSS properties, visit the link below:
+
+[All CSS properties](https://www.dofactory.com/css/properties)
+
+### JavaScript
 
 _______________________________________________________________
 
