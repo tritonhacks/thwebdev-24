@@ -17,8 +17,6 @@ has_toc: false
 
 {: .note }
 
-> By [Victor Hsiao](https://www.linkedin.com/in/hsiaovictor/) 
-
 ## HTML
 
 ### **The `<head>` tag**
