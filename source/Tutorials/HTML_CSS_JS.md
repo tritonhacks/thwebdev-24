@@ -19,9 +19,9 @@ has_toc: false
 
 > By [Victor Hsiao](https://www.linkedin.com/in/hsiaovictor/) 
 
-### HTML
+## HTML
 
-#### **The `<head>` tag**
+### **The `<head>` tag**
 
 The head tag represents the set up for our HTML page
 
@@ -33,7 +33,7 @@ We use the `<link>` tag for when we want to link a CSS stylesheet to our page, f
 
 We will outline the multiple components that every HTML website has:
 
-#### **The header tags**
+### **The header tags**
 
 Header tags represent the titles of our HTML
 
@@ -45,7 +45,7 @@ To use a header tag, you would do:
 
 ![](https://th.bing.com/th/id/R.f31151c9930cad0b53977ddf32d16c4d?rik=RvEoDf4v8g7cUA&riu=http%3a%2f%2fictacademy.com.ng%2fwp-content%2fuploads%2f2017%2f10%2fHeading-Tag-Hierarchy.jpg&ehk=38aWjqrzDxhB1GMnv1P4RIyBArTDY3czYf0xm8uapJw%3d&risl=&pid=ImgRaw&r=0)
 
-#### **The `<p>` tag**
+### **The `<p>` tag**
 
 The `<p>` tag is used for big blocks of text, or paragraphs. We use it when we want to include big blocks of text on our website, like for a blog or article
 
@@ -53,7 +53,7 @@ The `<p>` tag is used for big blocks of text, or paragraphs. We use it when we w
 
 ![p tag](https://blog.hubspot.com/hs-fs/hubfs/Google%20Drive%20Integration/Using%20the%20%3Cp%3E%20Tag%20in%20HTML-1.png?width=657&name=Using%20the%20%3Cp%3E%20Tag%20in%20HTML-1.png)
 
-#### **The `<a>` tag**
+### **The `<a>` tag**
 
 The `<a>` tag is a tag is used to link other webpages or websites. 
 
@@ -63,14 +63,14 @@ To use an `<a>` tag, you have to specify the href attribute, which is the url th
 
 In between the opening and closing `<a>` tags, you insert some text that serves as the link. The default blue color text with the underline shows that the text is a link.
 
-#### **The list tags**
+### **The list tags**
 
 There are two types of lists in HTML:
 
 1. ordered lists
 2. unordered lists
 
-#### **Ordered Lists**
+### **Ordered Lists**
 
 To specify an unordered lists, you use the `<ol>` tag.
 
@@ -80,7 +80,7 @@ With ordered lists, your list items would be in a certain order, going from 1, 2
 
 Same as ordered lists, to add items to your unordered list you use the `<li>` tag.
 
-#### **Unordered Lists**
+### **Unordered Lists**
 
 To specify an unordered lists, you use the `<ul>` tag.
 
@@ -92,7 +92,7 @@ Unordered lists would look like this:
 
 ![unordered list](https://th.bing.com/th/id/OIP.HfkBXgQPgATQswMMF43-bwHaEJ?rs=1&pid=ImgDetMain)
 
-#### **The `<img>` tag**
+### **The `<img>` tag**
 
 The `<img>` tag is used to add images to our website.
 
@@ -102,13 +102,13 @@ Unlike the other tags, the image tag does not have a self-closing tag, so instea
 
 ![](https://www.codewithfaraz.com/img/image%20tag%20in%20html%20how%20to%20add%20images%20in%20html%20-%20a%20beginners%20guide.jpg)
 
-### CSS
+## CSS
 
 When we want to add CSS styling to any of our HTML elements, to select the specific HTML elements we want to style, there are a few different type of CSS selectors we can use
 
-#### **Element Selectors**
+### **Element Selectors**
 
-#### **ID Selectors**
+### **ID Selectors**
 
 You would use id selectors if you only want to apply CSS styling to one HTML element
 
@@ -126,7 +126,7 @@ And in your CSS, you would use the `#` tag to select the element with a certain 
 
 Only one element can have a certain id, you cannot have two elements with the same id
 
-#### **Class Selectors**
+### **Class Selectors**
 
 Class selectors allow you to apply the same style attributes to multiple elements
 
@@ -148,7 +148,7 @@ To add style attributes to a class, we use the `.` tag instead
 }
 ```
 
-#### **Basic Style Attributes**
+### **Basic Style Attributes**
 
 There are many different types of style attributes, but we'll lay out some basic ones.
 
@@ -178,7 +178,7 @@ For a full list of CSS properties, visit the link below:
 
 [All CSS properties](https://www.dofactory.com/css/properties)
 
-### JavaScript
+## JavaScript
 
 _______________________________________________________________
 
