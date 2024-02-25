@@ -17,8 +17,7 @@ has_children: false
 1. TOC
 {:toc}
 
-{: .note }
-> By [Victor Hsiao](https://www.linkedin.com/in/hsiaovictor/)    
+{: .note }  
 
 CSS, or Cascading Style Sheets, is like the paint and decorations you use to make your LEGO house look awesome after you've built it. While HTML defines the structure and content of your web page, CSS controls how your web page looks, like the colors, fonts, sizes, and layout.
 
