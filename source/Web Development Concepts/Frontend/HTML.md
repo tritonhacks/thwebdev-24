@@ -18,7 +18,6 @@ has_children: false
 {:toc}
 
 {: .note }
-> By [Victor Hsiao](https://www.linkedin.com/in/hsiaovictor/)
 
 HTML serves as the building blocks for our website. It represents the different pieces for your LEGO figure, the head, arms, body, legs.
 
