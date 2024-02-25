@@ -42,6 +42,20 @@ Most HTML tags are structured like this:
 
 ![](https://clearlydecoded.com/assets/images/posts/2017-09-04-anatomy-of-html-tag/html-tag-attributes.png)
 
+One important aspect of HTML is **the DOM**
+
+**The DOM, or Document Object Model**, is like the instruction manual that tells you how to put all those LEGO bricks together to build your house.
+
+The web browser is like a really smart LEGO builder. When you open a web page, the browser starts reading through that instruction manual, the HTML code.
+
+The DOM is like a map of your web page, showing how all these HTML elements are connected and organized. It's a way for your web browser to understand the structure of your page so it knows how to display it properly. 
+
+It's like a blueprint of the web page, showing how all the HTML elements are connected and organized, just like how the instruction manual tells the builder how to connect all the LEGO bricks to build the house.
+
+Just like how following the LEGO instruction manual helps you build your house correctly, the DOM helps the web browser render your web page correctly, making sure everything shows up in the right place and looks the way it should.
+
+The browser knows exactly where everything is on the page because it's already built that LEGO-like map in its memory using the DOM. This helps the browser quickly find and update different parts of the web page without getting confused, just like how a LEGO builder can quickly find and add or remove bricks from the right spots in the house they're building!
+
 **To learn more about HTML, down below are some resources:**
 
 [HTML on W3Schools](https://www.w3schools.com/html)
