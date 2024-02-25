@@ -108,6 +108,20 @@ When we want to add CSS styling to any of our HTML elements, to select the speci
 
 ### **Element Selectors**
 
+Element selectors are the most basic type of CSS selector. To use an element selector, we just get the tag that we want to apply our CSS to
+
+Say we want to style the tag below
+
+`<h1>Hello World!</h1>`
+
+To use an element selector, we just get the tag `h1` and apply our CSS styles!
+
+```
+h1 {
+    (insert styles here)
+}
+```
+
 ### **ID Selectors**
 
 You would use id selectors if you only want to apply CSS styling to one HTML element
@@ -132,12 +146,15 @@ Class selectors allow you to apply the same style attributes to multiple element
 
 In your HTML, you would assign the class attribute to the tags you want to have the same style
 
-From the below example, we see that two `<p>` tags can have the same class, in this case, "paragraph"
+From the below example, we see that there are multiple `<p>` tags
+
+Say we want to style the first two `<p>` tags and not the third one. We can assign them the same class, in this case, "paragraph"
 
 ```
 <h1>Hello, my name is Deadpool!</h1>
 <p class="paragraph">I am an antihero, I have done good but have also done bad</p>
 <p class="paragraph">I am played by Ryan Reynolds!</p>
+<p>The end!</p>
 ```
 
 To add style attributes to a class, we use the `.` tag instead
@@ -179,6 +196,8 @@ For a full list of CSS properties, visit the link below:
 [All CSS properties](https://www.dofactory.com/css/properties)
 
 ## JavaScript
+
+
 
 _______________________________________________________________
 
