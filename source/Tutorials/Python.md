@@ -448,13 +448,239 @@ What happend was that since the number 5 was greater than zero, it printed "The 
 ### Else Statements 
 {: .no_toc }
 
-In Python 
+In Python Else statements are like a backup plan that gets executed when the conditions specified in the if statement are not met. 
+
+For example lets say that we have this code that checks if a person is an adult.   
+
+```
+age = 19
+
+if age >= 18:
+   print("Your age is 18 or greater so you are an adult")
+```
+Output
+```
+Your age 18 or greater so you are an adult
+```
+This code works but it is not really useful because if the user is under 18 then nothing will happen and there will be no output. 
+
+Here is how we can fix this with else statements: 
+```
+age = 16
+
+if age >= 18:
+   print("Your age is 18 or greater so you are an adult")
+else: 
+   print("Your age is under 18 so you are not an adult")
+```
+Output
+```
+Your age is under 18 so you are not an adult
+```
+### Else If Statements
+
+In Python there are also else if or elif  statements that act similar to else statements but you use them when you want to check another condition.
+
+Here is an example of using elif statements to see what type of grade you have:
+
+```
+grade = 87
+
+if grade >= 90:
+   print("You have an A")
+
+elif grade >= 80:
+   print("You have a B")
+   
+elif grade >= 70:
+   print("You have a C")
+
+else:
+   print("You have an F")
+```
+Output
+```
+You have a B
+```
 
 ## Lists
 
+In Python lists are a data structure that we use to store multiple items is a singular variable. They can also contain elements of different data types. Lists can easily be modiefied and its data can easily be accessed. 
+
+Here is how you can create a list with 5 integer elements ranging from 1 to 5:
+```
+my_list = [1,2,3,4,5]
+```
+Here is an example of a list of strings:
+```
+my_list = ["apple", "orange", "banana"]
+```
+
+**Accessing Elements**
+
+In programming languages they use what's called zero indexing where essentially the first index of a data structure like lists or strings starts at zero. 
+
+So in this example to access the first element of the list we would do this: 
+
+```
+my_list = ["apple", "orange", "banana"]
+print(my_list[0])
+```
+Output:
+```
+apple
+```
+
+**Modifying Elements**
+
+Here's how we can modify the list: 
+```
+my_list = ["apple", "orange", "banana"]
+my_list[1] = "pear"
+print(my_list)
+```
+Output: 
+```
+apple, pear, banana
+```
+
+**Adding Elements**
+
+For adding elements to the list we can use a list method which is a built in method that we csan use on lists. To add elements we can use the .append() method. 
+
+Here's an example:
+```
+my_list = ["apple", "orange", "banana"]
+my_list.append("cherry")
+print(my_list)
+```
+Output:
+```
+apple, orange, banana, cherry
+```
+
+**Removing Elements**
+
+For removing elements we can use the .remove() method. 
+
+Example: 
+```
+my_list = ["apple", "orange", "banana"]
+my_list.remove(2)
+print(my_list)
+```
+Output:
+```
+apple, orange
+```
+
+**List Length**
+
+We can access the length of a list by using the len method which looks like this ```len()```. The len method can also be used for other data structures and types like strings. 
+
+Here is how we can use it with iterating over a list:
+```
+my_list = ["apple", "orange", "banana"]
+
+print(len(my_list))
+```
+Output:
+```
+3
+```
+
 ## Loops 
 
+We can use loops for when we want to execute code repeatedly until a specific condition is met. In Python there are two main loops which are the for and while loops. The while loop is used when you want to ececute code until a specific condition is true and the for loop is when you know how many times you want the code to execute. 
+
+**For loop**
+
+We can use for loops to iterate over a list or a range of numbers. 
+
+Here is an example of using a for loop for iterating over a list:
+```
+my_list = ["apple", "orange", "banana"]
+
+for item in my_list:
+   print(my_list[item])
+```
+Output:
+```
+apple
+orange
+banana
+```
+This is how we would use it with a range of numbers:
+```
+for x in range(5)
+   print(x)
+```
+Output:
+```
+0
+1
+2
+3
+4
+```
+
+**While Loop**
+
+We use while loops when we want to execute code until a condition is met then once the condition is met then the loop stops. 
+
+For example her is how we can print numbers from 1 to 5:
+
+```
+number = 0
+while number < 5:
+   number +=1
+   print(number)
+```
+Output:
+```
+1
+2
+3
+4
+5
+```
+
+
 ## Functions
+
+In Python we can use funnctions which is a block of organized, reusable code that performs a specific task.
+Functions provide a way to modularize your code, making it easier to read, write, and maintain. In Python, you define a function using the def keyword followed by the function name, parentheses ( ) containing optional parameters, and a colon :. The body of the function is indented and contains the code to be executed when the function is called. 
+
+Here's an example of a function that takes a users name and prints it with hello: 
+
+```
+def greeting(name):
+   print("Hello " + name + "!")
+
+greeting("programmer")  # This is how you call the function (use it)
+```
+Output:
+```
+Hello programmer!
+```
+
+
+Functions can also return values using a return statement.
+
+Here is an example of a function that adds two numbers togther and returns it: 
+
+```
+def add(x, y): 
+   return x + y
+
+# Call the function and store the result in a variable
+result = add(3, 5)
+print(result)
+```
+Output:
+```
+8
+```
 
 [Previous: HTML, CS, Javascript](HTML_CSS_JS){: .float-left .v-align-text-top}
 [Next: Tutorials](../../Tutorials){: .float-right .v-align-text-top}
