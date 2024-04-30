@@ -28,7 +28,7 @@ In python and like many programming languages, they have print statements. These
 
 Here's an example of a print statement that displays the words "Hello World": 
 
-```
+```py
 print("Hello World")
 ```
 When you run the program this is the output: 
