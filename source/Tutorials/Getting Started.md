@@ -28,13 +28,14 @@ Once it is installed, it will look like this.
 ![Visual Studio Code Welcome Page](../source/assets/images/vsc_welcome_page.png)
 
 Head over to the [Python Website](https://www.python.org/downloads/) and download the latest version.
-Once you get this pop up, make sure to check the second box.
+Once you get this pop up, make sure to check the second box of `Add python.exe to PATH`
 
 ![Python Install](../source/assets/images/python_install.png)
 
-After you've installed Python, you have to set your interpreter so that it uses the installed Python. To do so, press ``` CTRL + SHIFT + P ``` inside of your visual studio code and type Python: Select Interpreter and press enter. You should see an option to select the interpreter you just installed.
+After you've installed Python, you have to set your interpreter so that it uses the installed Python. To do so, press ``` CTRL + SHIFT + P ``` inside of your visual studio code and type Python: Select Interpreter and press enter. You should see an option to select the interpreter you just installed. Don't worry about the other options, you should only see one.
 
-![Python Interpreter](add image here later)
+![Python Interpreter](../source/assets/images/interpreter.png)
+
 
 You've just finished setting up your environment!
 ## Dependencies

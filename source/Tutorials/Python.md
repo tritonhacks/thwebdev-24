@@ -17,12 +17,10 @@ has_toc: false
 {:toc}
 
 ---
-
-## What is Python?
-
+### Python
 Python is a popular high-level programming language that is used in various fields such as web development, data science, and software engineering. Python is known for its readability, simplicity, and versatility.
 
-## Print Statements
+#### **Print Statements**
 
 In python and like many programming languages, they have print statements. These are what you can use to make the program display an output to the computer screen when you are programming.
 
@@ -38,7 +36,7 @@ Hello World
 
 --- 
 
-### Comments
+#### **Comments**
 {: .no_toc }
 
 In python there are these things called comments. Comments are like notes or reminders that we write in our code to help us understand it better. 
@@ -60,7 +58,7 @@ Hello World
 As we can see comments dont effect the code in any way and they are just there for you as the programmer to see. 
 
 
-## Variables and Data Types
+#### **Variables and Data Types**
 
 Variables in Python are like containers that hold information. Imagine a box with a label on it. You can put different things in the box, and the label helps you remember what's inside. Similarly, a variable has a name (like the label) and can store different types of information, such as numbers, words, or true/false values.
 
@@ -156,9 +154,9 @@ Output:
 ```
 
 
-## Operators
+#### **Operators**
 
-### Mathematical Operators
+##### **Mathematical Operators**
 
 In Python there are arithmetic operators that are used to perform basic mathematical operations like addition, subtraction, multiplication, and division.
 
@@ -268,7 +266,7 @@ Output:
 ```
 
 
-### Comparison Operators
+##### **Comparison Operators**
 
 In Python Comparison operators compare values. It either returns True or False according to the condition.
 
@@ -315,7 +313,7 @@ True
 False
 
 ```
-### Logical Opersators
+##### **Logical Opersators**
 
 Logical operators in Python are like tools we use to make decisions in our programs. Just like how you might use the words 'and', 'or', and 'not' to combine ideas or conditions when you're making a decision in real life, logical operators in Python help us combine conditions and make decisions in our code.
 
@@ -350,7 +348,7 @@ False
 True
 ```
 
-### Identity And Membership Operators
+##### **Identity And Membership Operators**
 
 Identity operators in Python are like tools we use to check if two things are the same or different. Just like how you might compare two things in real life to see if they are identical or not.
 
@@ -422,7 +420,7 @@ True
 ```
 This prints True because the text "<mark>how</mark>" is found inside of the text "hello <mark>how</mark> are you".
 
-## if and else Statements
+#### **if and else Statements**
 
 If statements in Python are like decision-making tools that help our programs make choices based on certain conditions. It is used to decide whether certain code will be executed or not.
 
@@ -445,7 +443,7 @@ The number 5 is positive
 ```
 What happend was that since the number 5 was greater than zero, it printed "The number 5 is positive" and if it wasnt then nothing would be printed since the condition would be false in that situation. We also used type conversion ```str(number)``` because we cannot add an integer and a string together so we had to convert the integer of 5 into a string so there wouldn't be an error. 
 
-### Else Statements 
+#### **Else Statements** 
 {: .no_toc }
 
 In Python Else statements are like a backup plan that gets executed when the conditions specified in the if statement are not met. 
@@ -477,7 +475,7 @@ Output
 ```
 Your age is under 18 so you are not an adult
 ```
-### Else If Statements
+#### **Else If Statements**
 
 In Python there are also else if or elif  statements that act similar to else statements but you use them when you want to check another condition.
 
@@ -503,7 +501,7 @@ Output
 You have a B
 ```
 
-## Lists
+#### **Lists**
 
 In Python lists are a data structure that we use to store multiple items is a singular variable. They can also contain elements of different data types. Lists can easily be modiefied and its data can easily be accessed. 
 
@@ -589,7 +587,7 @@ Output:
 3
 ```
 
-## Loops 
+#### **Loops** 
 
 We can use loops for when we want to execute code repeatedly until a specific condition is met. In Python there are two main loops which are the for and while loops. The while loop is used when you want to ececute code until a specific condition is true and the for loop is when you know how many times you want the code to execute. 
 
@@ -646,7 +644,7 @@ Output:
 ```
 
 
-## Functions
+#### **Functions**
 
 In Python we can use funnctions which is a block of organized, reusable code that performs a specific task.
 Functions provide a way to modularize your code, making it easier to read, write, and maintain. In Python, you define a function using the def keyword followed by the function name, parentheses ( ) containing optional parameters, and a colon :. The body of the function is indented and contains the code to be executed when the function is called. 

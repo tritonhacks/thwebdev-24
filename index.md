@@ -6,29 +6,6 @@ permalink: /
 ---
 
 # TritonHacks Web Development <br> Starter Kit
-The following are the different callouts you can use. Reference the source code to use them.
-
-{: .important}
-If you are more comfortable with the dark theme, press the top right icon to switch. 
-
-{: .warning}
-text holder
-
-{: .hint}
-text holder
-
-{: .note}
-text holder
-
-{: .tip}
-text holder
-
-{: .caution}
-text holder
-
-{: .attention}
-text holder
-
 Welcome to Triton Hacks - your gateway to coding and tech exploration! This is the starter kit for those who want to learn about web development and how we can create websites!
 
 Get set for an exciting journey through some awesome modules that'll show you everything about the internet, how websites operate, and how they're built. We'll first explain web development, the different areas of it, and then go into the nitty gritty of creating one. 

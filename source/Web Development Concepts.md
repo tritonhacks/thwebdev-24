@@ -45,7 +45,7 @@ The design team are like the architects who draw the creative blueprints for the
 The frontend team is similar to the construction workers who build the visible parts of the house that people see and interact with—like the walls, doors, and windows. In web development, the frontend team uses special programming languages like HTML, CSS, and JavaScript to create what you see on a website. They make sure the website looks great on your computer or phone, just like how builders make sure the house looks amazing from the outside.
 
 ### 🔧 The Backend Team
-Now, the backend team is like the engineers and the house's hidden systems—things you might not see, like the electricity and plumbing. In web development, the backend team works on the website's power system, the databases, and other technical stuff. They make sure everything works smoothly behind the scenes, so when you click a button, the right information shows up, just like when you turn on a light switch, the light comes on without you seeing all the wiring.
+Now, the backend team are like the engineers and the house's hidden systems—things you might not see, like the electricity and plumbing. In web development, the backend team works on the website's power system, the databases, and other technical stuff. They make sure everything works smoothly behind the scenes, so when you click a button, the right information shows up, just like when you turn on a light switch, the light comes on without you seeing all the wiring.
 
 ![Website and House with Tech](source/assets/images/website_house_tech_analogy.png)
 

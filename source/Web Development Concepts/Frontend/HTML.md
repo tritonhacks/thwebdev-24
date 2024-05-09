@@ -11,17 +11,11 @@ has_children: false
 # What is Hypertext Markup Language (HTML)?
 {: .no_toc }
 
-## Table of contents
-{: .no_toc .text-delta }
-
-1. TOC
-{:toc}
-
 {: .note }
 
 HTML serves as the building blocks for our website. It represents the different pieces for your LEGO figure, the head, arms, body, legs.
 
-Every HTML page ends with ".html", where each page has the same starting structure
+Every HTML page ends with ".html", where each page has the same starting structure. The `<head>` contains all of the "metadata" which are information related to the website. The actual content goes inside of the `<body>`tags.
 
 ```
 <!doctype html>
@@ -33,7 +27,7 @@ Every HTML page ends with ".html", where each page has the same starting structu
     <title>My page title</title>
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body></body>
+  <body></body> <!--The actual content goes inside the <body> tags--> 
 </html>
 ```
 

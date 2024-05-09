@@ -48,19 +48,20 @@ To utilize internal styling, you add the `<style>` element inside the `<head>` s
 ```
 <!DOCTYPE html>
 <html>
-<head>
-<style>
-body {background-color: powderblue;}
-h1   {color: blue;}
-p    {color: red;}
-</style>
-</head>
-<body>
+    <head>
+        <style>
+            body {background-color: powderblue;}
+            h1   {color: blue;}
+            p    {color: red;}
+        </style>
+    </head>
 
-<h1>This is a heading</h1>
-<p>This is a paragraph.</p>
+    <body>
 
-</body>
+        <h1>This is a heading</h1>
+        <p>This is a paragraph.</p>
+
+    </body>
 </html>
 ```
 
