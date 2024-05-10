@@ -9,7 +9,7 @@ has_children: true
 
 Oh no, you found an empty section!
 
-![Raccoon-Rave](../source/assets/images/raccoon-rave.gif)
+![Raccoon-Rave](../../source/assets/images/raccoon-rave.gif)
 
 Carry on, happy hacking!
 
