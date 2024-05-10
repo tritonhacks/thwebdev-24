@@ -14,6 +14,9 @@ The first module is thus an explanation of the concepts on a high level, the sec
 
 If you ever feel lost, just use the search bar to quickly find what you're looking for—it'll guide you straight there! Get ready for an incredible learning adventure—it's going to be awesome! 🚀✨
 
+{: .note}
+We highly recommend using the dark theme at the top right corner for better contrast.
+
 ![TritonHacks Image](source/assets/images/tritonhacks.png)
 
 [Next: Web Development Concepts](Web Development Concepts){: .float-right .v-align-text-top}

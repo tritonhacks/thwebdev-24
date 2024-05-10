@@ -18,5 +18,15 @@ has_children: false
 
 ---
 
+## Who's the Audience?
+- to be filled (highschoolers)
+## Tech Stack
+- keep it short and simple
+## Considerations
+- edge cases, databases, internal storage, etc.
+## Simple is better
+- core features over many features
+
+- will be filled 5/10 morning
 [Previous: Getting Started](Getting Started){: .float-left .v-align-text-top}
 [Next: Frontend](Frontend){: .float-right .v-align-text-top}

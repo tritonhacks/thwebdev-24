@@ -19,6 +19,7 @@ has_children: false
 ---
 
 ### <img src="../source/assets/images/fastapi-1.svg" alt="FastAPI Logo" width="15" height="15"> FastAPI
+{: .no_toc }
 For our Web Development Starter Kit, we'll be utilizing FastAPI, an essential toolkit for those creating websites and web applications. Consider FastAPI as a collection of foundational tools that developers employ to build and manage the unseen components of websites or apps. These components are crucial for functions like securely transmitting your data during sign-ups or log-ins.
 
 While there are other frameworks like Flask, Django, and Tornado, each serving distinct purposes, FastAPI stands out for its ease of use and robust built-in features. This means you can achieve more with less coding effort, making it an excellent choice for both quick website deployment and for those new to web development, thanks to its gentle learning curve.
@@ -26,102 +27,159 @@ While there are other frameworks like Flask, Django, and Tornado, each serving d
 Complete [Getting Started](Getting Started) before doing this.
 {: .caution}
 
-#### **Working with FastAPI**
-Create an app.py file at the root level of your project folder. Inside of it, write these lines of code.
+### **Photogallery Backend**
+Create an app.py file at the root level of your project folder. Inside of it, copy these lines of code.
 ```python
-from fastapi import FastAPI
-from fastapi.staticfiles import StaticFiles       # Used for making static resources available to server
-from fastapi.templating import Jinja2Templates # Used for templatizied HTML
+from fastapi import FastAPI, Request, HTTPException
+from fastapi.responses import HTMLResponse, JSONResponse
+from fastapi.staticfiles import StaticFiles
+from fastapi.templating import Jinja2Templates
+from pydantic import BaseModel
 import uvicorn
 
-# Here, you're creating an instance of FastAPI. 
-# This is like starting up your FastAPI toolkit and getting it ready to use. 
-# We call this instance app, and it's what you'll use to create different parts of your web application.
-app = FastAPI() 
+app = FastAPI()
 
-# Specify where the static files are located. This is the name of your folder.
-static_files = StaticFiles(directory='public') 
+static_files = StaticFiles(directory='public')
 views = Jinja2Templates(directory="public/views")
 
-# Mount the static files directory to /public, this is where your other files will access the sources.
 app.mount('/public', static_files, name='public')
-
-# We modulate the different kinds of files so it's easier for us to navigate them
-app.mount("/imgs", StaticFiles(directory="public/imgs"), name="imgs")
 app.mount("/css", StaticFiles(directory="public/css"), name="css")
 app.mount("/js", StaticFiles(directory="public/js"), name="js")
 
+class Image(BaseModel):
+    title: str 
+    description: str 
+    src: str 
+
+images = {}
+@app.get('/', response_class=HTMLResponse)
+def get_home(request: Request) -> HTMLResponse:
+    return views.TemplateResponse("main.html", {"request": request, "images": images})
+    
+
+@app.post("/images", response_class=JSONResponse)
+def post_image(img_data: Image):
+    # add data
+    img_id = len(images) + 1
+    images.update({img_id: img_data})
+    return {"img_id": img_id, **img_data.dict()}
+
+@app.put("/images/{img_id}", response_class=JSONResponse)
+def modify_image(img_id: int, img_data: Image):
+    #modify data
+    if img_id in images:
+        images.update({img_id: img_data})
+        return images[img_id]
+    raise HTTPException(status_code=404, detail="Image not found")
+
+@app.delete('/images/{img_id}', response_class=JSONResponse)
+def delete_img(img_id: int):
+    if img_id in images:
+        return images.pop(img_id)
+    raise HTTPException(status_code=404, detail="Image not found")
+    
 if __name__ == "__main__":
-    # We can specify what ports to run, and you can change this.
-    # You would access this at 127.0.0.`:8007 or localhost:8007
-    # reload = True allows us to make changes to our code without constantly rerunning the code.
-    uvicorn.run("FileName:app", host="127.0.0.1", port=8007, reload=True)
+    uvicorn.run("app:app", host="127.0.0.1", port=8007, reload=True)
+
 ```
 
-We're then going to add these routes.
-```py
-@app.get("")
-
-@app.post("")
-
-@app.put("")
-
-@app.delete("")
-```
-
-### Getting Started With FastAPI 
-
-```py
-from fastapi import FastAPI
-
-app = FastAPI()
-```
-
-First we have to import FastAPI to our code. When we import FastAPI we are adding the FastAPI class to our code which allows us to use the functionality of FastAPI. 
-
-```py
-from fastapi import FastAPI
-```
-
-Then we create a FastAPI instance. Here our ```app``` variable will be an instance of the class FastAPI which will be our main point of interaction for all of our API. API stands for Application Programming Interface.  
-
-```py
-app = FastAPI()
-```
----
-
-```py
-from fastapi import FastAPI
+### **Understanding The Code**
+#### **Importing Tools We Need**
+```python
+from fastapi import FastAPI, Request, HTTPException
+from fastapi.responses import HTMLResponse, JSONResponse
 from fastapi.staticfiles import StaticFiles
+from fastapi.templating import Jinja2Templates
+import uvicorn
+```
 
+- **FastAPI**: This is the main tool for building our web server.
+- **Request**: This allows us to see what the user is asking for. For example, if someone wants to view a specific photo, 'Request' helps us figure out which photo they want.
+- **HTTPException**: Sometimes things go wrong (like if someone asks for a photo that doesn’t exist). This lets us handle such errors by responding with an appropriate error message.
+- **HTMLResponse**: When we want to send back a whole webpage.
+- **JSONResponse**: When we want to send back just some information, not a full page, in a structured format. JSON is a way of organizing data that’s easy for both humans and - computers to read.
+- **StaticFiles**: This is used to manage files that don’t change often, like pictures, stylesheets (CSS files), or JavaScript files.
+- **Jinja2Templates**: Helps us dynamically create HTML pages. For example, if you want to show a photo with a title and description, Jinja2 can generate a webpage on the fly using a template.
+- **uvicorn**: This is the program that runs our FastAPI app. It's like the engine that powers our assistant.
+
+#### **Organization of Files**
+
+{: .caution}
+You have to create these folders at the root of project, which is the folder you opened when creating the project. You can see what your root is by looking at what folder you're in.
+
+In this image, we're in the Photogallery root.
+
+![Root](../source/assets/images/root.png)
+
+```python
 app = FastAPI()
-```
-Next we have to import the StaticFiles class from FastAPI to allow us to serve our static files like JavaScript, css, and images from a directory in our file system to our browswer. 
 
-```py
-from fastapi.staticfiles import StaticFiles
-```
+static_files = StaticFiles(directory='public')
+views = Jinja2Templates(directory="public/views")
 
-Then we mount a ```StaticFiles()``` instance in a specific path. When we refer to mounting, it means adding a complete "independent" application in  a specific path, that then takes care of handling all the sub-paths.
-
-Here is a breakdown of the "app.mount()":
-
-```app.mount("/imgs", StaticFiles(directory="public/imgs"), name="imgs")```
-
-The first ```"/imgs"``` refers to the sub-path this "sub-application" will be "mounted" on. So, any path that starts with ```"/imgs"``` will be handled by it.
-
-The ```directory="public/imgs"``` refers to the name of the directory that contains your static files.
-
-The ```name="imgs"``` gives it a name that can be used internally by FastAPI.
-
-```py
-from fastapi.staticfiles import StaticFiles
-
-app.mount("/imgs", StaticFiles(directory="public/imgs"), name="imgs")
+app.mount('/public', static_files, name='public')
 app.mount("/css", StaticFiles(directory="public/css"), name="css")
 app.mount("/js", StaticFiles(directory="public/js"), name="js")
 ```
+
+
+- **app = FastAPI()**: Starts our web server.
+- **StaticFiles**: Tells our server where to find static files. We organize files into directories, much like folders on a computer.
+- **Jinja2Templates**: Sets up where to find HTML templates for generating web pages.
+- **app.mount(...)**: This makes these directories available to our server so it can access them when needed.
+
+#### **Creating a Data Model**
+```python
+class Image(BaseModel):
+    title: str 
+    description: str 
+    src: str 
+
+images = {}
+```
+
+- **Image**: This acts like a form that defines what information a photo needs before it can be added to our album: a title, a description, and a source (src, where the photo is stored).
+
+We're going to keep the information contained within `Image` in a dictionary as defined by `images = {}`
+
+#### **RESTful Routes**
+```python
+@app.get('/', response_class=HTMLResponse)
+def get_home(request: Request) -> HTMLResponse:
+    return views.TemplateResponse("main.html", {"request": request, "images": images})
+    
+@app.post("/images", response_class=JSONResponse)
+def post_image(img_data: Image):
+    # add data
+    img_id = len(images) + 1
+    images.update({img_id: img_data})
+    return {"img_id": img_id, **img_data.dict()}
+
+@app.put("/images/{img_id}", response_class=JSONResponse)
+def modify_image(img_id: int, img_data: Image):
+    #modify data
+    if img_id in images:
+        images.update({img_id: img_data})
+        return images[img_id]
+    raise HTTPException(status_code=404, detail="Image not found")
+
+@app.delete('/images/{img_id}', response_class=JSONResponse)
+def delete_img(img_id: int):
+    if img_id in images:
+        return images.pop(img_id)
+    raise HTTPException(status_code=404, detail="Image not found")
+```
+
+- **@app.get('/')**: This tells our web server to listen for requests to the home page (like when someone visits the main URL of our digital album).
+- **response_class=HTMLResponse**: We're saying that our response will be an HTML page.
+- **get_home**: This is the function that runs when someone visits the home page. It uses a template to create a webpage that shows all the photos.
+
+- **@app.post("/images")**: This sets up a way for users to add new photos. 'Post' is used when the user is sending us new data (like uploading a photo).
+- **response_class=JSONResponse**: Indicates the server will respond with data in JSON format, confirming the photo was added.
+
+- **@app.put and @app.delete**: These are for updating and deleting photos, respectively. 'Put' is used for changes, while 'Delete' is for removing photos.
+- **{img_id}**: This is a placeholder in the URL for the specific photo's ID. It tells the server which photo to update or delete.
 
 
 [Previous: Frontend](Frontend){: .float-left .v-align-text-top}
-[Next: Building our Website](Website){: .float-right .v-align-text-top}
+[Next: The Team]({{ "/team" | relative_url }}){: .float-right .v-align-text-top}
