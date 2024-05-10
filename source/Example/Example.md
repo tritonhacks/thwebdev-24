@@ -3,6 +3,7 @@ layout: default
 title: An Example
 nav_order: 7
 permalink: /Example
+parent: Tutorials
 has_toc: false
 has_children: true
 ---
@@ -15,7 +16,7 @@ has_children: true
 
 For our starter kit, we will be making a photogallery website that uses a server to store images. We'll outline the design process and go over our front and backend code.
 
-![Photogallery](../assets/images/photogallery.jpg)
+![Photogallery](../source/assets/images/photogallery.jpg)
 
 [Previous: RESTful](Backend/RESTful){: .float-left .v-align-text-top}
 [Next: Getting Started](Example/Getting Started){: .float-right .v-align-text-top}
