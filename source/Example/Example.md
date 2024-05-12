@@ -17,5 +17,5 @@ For our starter kit, we will be making a photogallery website that uses a server
 
 ![Photogallery](source/assets/images/photogallery.jpg)
 
-[Previous: RESTful](Backend/RESTful){: .float-left .v-align-text-top}
-[Next: Getting Started](Example/Getting Started){: .float-right .v-align-text-top}
+[Previous: Python](../Tutorials/Python){: .float-left .v-align-text-top}
+[Next: Design Process](Design Process){: .float-right .v-align-text-top}

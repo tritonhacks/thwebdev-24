@@ -681,4 +681,4 @@ Output:
 ```
 
 [Previous: HTML, CS, Javascript](HTML_CSS_JS){: .float-left .v-align-text-top}
-[Next: Example](../Example/){: .float-right .v-align-text-top}
+[Next: Example](../Example){: .float-right .v-align-text-top}
