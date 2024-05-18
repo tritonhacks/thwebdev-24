@@ -12,7 +12,7 @@ The Team:
 - [Victor Hsiao](URL) - Developer
 - [Kevin Shin](https://www.linkedin.com/in/kevin-shin-373183188/) - Lead
 
-# 2024 TritonHacks Impact Report
-text and data here (surveys etc).
+# Get Started
+Click on this [link](tritonhacks.github.io/thwebdev-24/) to get started.
 
 Special thanks to the [Jekyll](https://jekyllrb.com/) community and [Just the Docs](https://just-the-docs.com/) for providing us with the infrastructure needed.
