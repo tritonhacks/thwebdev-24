@@ -13,6 +13,6 @@ The Team:
 - [Kevin Shin](https://www.linkedin.com/in/kevin-shin-373183188/) - Lead
 
 # Get Started
-Click on this [link](tritonhacks.github.io/thwebdev-24/) to get started.
+Click on this [link](https://tritonhacks.github.io/thwebdev-24/) to get started.
 
 Special thanks to the [Jekyll](https://jekyllrb.com/) community and [Just the Docs](https://just-the-docs.com/) for providing us with the infrastructure needed.
