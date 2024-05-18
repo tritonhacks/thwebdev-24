@@ -52,5 +52,8 @@ pip install uvicorn
 
 Once these are installed, you are all set up to start creating your website.
 
+## Liveshare Feature (Extra)
+There is an extension on visual studio code that allows you to code in real-time with your team members. In order to do so, follow [this](https://learn.microsoft.com/en-us/visualstudio/liveshare/quickstart/share) tutorial.
+
 [Previous: Tutorials](../Tutorials){: .float-left .v-align-text-top}
 [Next: HTML, CS, Javascript](HTML_CSS_JS){: .float-right .v-align-text-top}

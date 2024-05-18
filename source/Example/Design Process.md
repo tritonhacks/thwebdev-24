@@ -27,6 +27,5 @@ has_children: false
 ## Simple is better
 - core features over many features
 
-- will be filled 5/10 morning
 [Previous: Getting Started](../Example){: .float-left .v-align-text-top}
 [Next: Frontend](Frontend){: .float-right .v-align-text-top}
